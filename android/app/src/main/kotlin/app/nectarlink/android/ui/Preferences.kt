@@ -202,7 +202,7 @@ class Preferences(context: Context) {
         fun isAwayModeEnabled(context: Context): Boolean =
             context.applicationContext
                 .getSharedPreferences("appearance", Context.MODE_PRIVATE)
-                .getBoolean(AWAY_MODE, false)
+                .getBoolean(AWAY_MODE, true)
 
         fun setAwayModeEnabled(context: Context, enabled: Boolean) {
             context.applicationContext

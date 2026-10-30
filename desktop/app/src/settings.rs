@@ -454,7 +454,8 @@ pub struct Settings {
     #[serde(default, alias = "forward_pc_notifications_to_phone")]
     pub forward_pc_notifications_to_phone: bool,
     /// Allow staying connected over mobile data (LTE/5G) / relay when away from Wi-Fi.
-    #[serde(default, alias = "away_mode")]
+    /// On by default in this fork so paired devices connect from anywhere.
+    #[serde(default = "default_true", alias = "away_mode")]
     pub away_mode: bool,
     /// Whether the first-run setup walkthrough has been completed or skipped.
     #[serde(default, alias = "walkthrough_completed")]
@@ -543,7 +544,7 @@ impl Default for Settings {
             stream_pc_audio_to_phone: false,
             share_pc_storage: false,
             forward_pc_notifications_to_phone: false,
-            away_mode: false,
+            away_mode: true,
             walkthrough_completed: false,
             walkthrough_step: 0,
             whats_new_dismissed: false,
