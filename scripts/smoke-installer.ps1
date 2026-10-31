@@ -23,7 +23,7 @@ if (-not $Setup -or -not (Test-Path $Setup)) { throw "no setup installer found t
 $dir = Join-Path $env:ProgramFiles 'Nectarlink'
 $exe = Join-Path $dir 'nectarlink-desktop.exe'
 $uninstallKey = 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\Nectarlink'
-$shortcut = Join-Path $env:ProgramData 'Microsoft\Windows\Start Menu\Programs\Nectarlink.lnk'
+$shortcut = Join-Path $env:ProgramData 'Microsoft\Windows\Start Menu\Programs\ZoopSync.lnk'
 $data = if ($env:RUNNER_TEMP) { Join-Path $env:RUNNER_TEMP 'nectarlink-smoke' } else { Join-Path $env:TEMP 'nectarlink-smoke' }
 
 function Check($what, [bool]$ok) {
