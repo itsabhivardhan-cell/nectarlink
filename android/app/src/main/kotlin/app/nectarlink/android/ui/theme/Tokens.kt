@@ -30,7 +30,7 @@ data class Palette(
 data class Seed(val color: Color, val light: Palette, val dark: Palette)
 
 object Tokens {
-    const val DEFAULT_SEED = "honey"
+    const val DEFAULT_SEED = "lavender"
 
     val bloomSeeds: Map<String, Seed> = linkedMapOf(
         "black" to Seed(

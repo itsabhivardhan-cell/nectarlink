@@ -703,7 +703,7 @@ fn stopped(device: DeviceId, e: &Error) {
             Activity::Problem(tr!("PhotoBackup", "Photos are turned off for this PC on %1.", name))
         }
         Error::Unsupported => {
-            Activity::Problem(tr!("PhotoBackup", "Update NectarLink on %1 to back up its photos.", name))
+            Activity::Problem(tr!("PhotoBackup", "Update ZoopSync on %1 to back up its photos.", name))
         }
         Error::Io(io) if io.kind() == std::io::ErrorKind::StorageFull => {
             Activity::Problem(tr!("PhotoBackup", "The backup folder's drive is full."))

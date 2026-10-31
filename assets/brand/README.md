@@ -1,22 +1,22 @@
-# The NectarLink mark
+# The ZoopSync mark
 
-The Waggle Dance: two loops, the phone and the PC, around a drop of nectar,
-tilted like the run of a honeybee's waggle dance, which is how bees tell each
-other where to find nectar.
+A bold **Z** with a sync node on its diagonal: two ends, one link between them.
+This is an original design for the ZoopSync fork. It replaces the original
+NectarLink mark, which is not used here.
 
 | File | What it is |
 |---|---|
-| `icon.svg` | The full-color app icon: espresso tile, warm glow, honey rim |
-| `icon-flat.svg` | The same without the glow and highlights, for flat contexts |
+| `icon.svg` | The full-color app icon: deep indigo tile, soft violet glow |
+| `icon-flat.svg` | The same without the glow, for flat contexts |
 | `icon-mono.svg` | The mark alone in white, for one-color uses (notifications, themed icons) |
 | `icon-512.png` | `icon.svg` at 512 × 512 |
 
-The apps draw the mark themselves from the same geometry:
-`desktop/app/src/mark.rs` (the Windows icon, tray and notifications at every
-size) and `android/app/src/main/res/drawable/ic_launcher_*.xml` and
-`ic_notification.xml`.
+The Android app draws the mark from the same geometry in
+`android/app/src/main/res/drawable/ic_launcher_*.xml` and `ic_notification.xml`.
 
-Colors (Honey palette, `docs/design/tokens.json`): tile `#2C1600`, glow
-`#693C00`, phone loop `#FFF8F3`, PC loop `#FFDDB8`, nectar and rim `#FFB95F`.
+**Not updated yet:** the Windows app draws its own icon, tray icon and
+notification mark in code (`desktop/app/src/mark.rs`, `desktop/app/build.rs`),
+and those still show the original mark until that code is changed and tested.
 
-The name and the mark are covered by the [trademark policy](../../TRADEMARKS.md).
+Colors (Lavender palette, `docs/design/tokens.json`): tile `#1B1530`, glow
+`#4D3D75`, mark `#F3EDFF`, node `#A98BFF`.

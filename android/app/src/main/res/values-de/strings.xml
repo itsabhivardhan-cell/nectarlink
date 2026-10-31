@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- SPDX-License-Identifier: GPL-3.0-or-later -->
 <resources>
-    <string name="app_name">NectarLink</string>
+    <string name="app_name">ZoopSync</string>
 
     <!-- Pairing -->
     <string name="pair_title">Mit deinem PC koppeln</string>
     <string name="pair_show_title">Smartphone oder Tablet koppeln</string>
-    <string name="pair_show_hint">Öffne NectarLink auf deinem anderen Smartphone oder Tablet, tippe auf „Koppeln“ und scanne diesen Code.</string>
+    <string name="pair_show_hint">Öffne ZoopSync auf deinem anderen Smartphone oder Tablet, tippe auf „Koppeln“ und scanne diesen Code.</string>
     <string name="pair_show_qr_desc">Kopplungscode für ein anderes Smartphone oder Tablet</string>
     <string name="action_show_code">Stattdessen Smartphone oder Tablet koppeln</string>
-    <string name="pair_scan_hint">Öffne NectarLink auf deinem PC und richte die Kamera auf den angezeigten Code. Ein anderes Smartphone oder Tablet zeigt seinen Code unter „Smartphone oder Tablet koppeln“.</string>
+    <string name="pair_scan_hint">Öffne ZoopSync auf deinem PC und richte die Kamera auf den angezeigten Code. Ein anderes Smartphone oder Tablet zeigt seinen Code unter „Smartphone oder Tablet koppeln“.</string>
     <string name="pair_nearby_title">In der Nähe koppeln</string>
-    <string name="pair_nearby_hint">Öffne NectarLink auf deinem PC und lass den Kopplungsbildschirm geöffnet. Er erscheint dann hier.</string>
+    <string name="pair_nearby_hint">Öffne ZoopSync auf deinem PC und lass den Kopplungsbildschirm geöffnet. Er erscheint dann hier.</string>
     <string name="pair_looking">Suche nach PCs…</string>
     <string name="pair_joining">Koppeln…</string>
     <string name="pair_connecting">%1$s wird verbunden…</string>
@@ -25,9 +25,9 @@
     <string name="pair_failed_declined">Die Kopplung wurde auf einem der Geräte abgelehnt.</string>
     <string name="pair_failed_expired">Der Code ist abgelaufen. Lass dir auf deinem PC einen neuen anzeigen.</string>
     <string name="pair_failed_unreachable">Der PC konnte nicht erreicht werden. Stelle sicher, dass beide Geräte im selben Netzwerk sind.</string>
-    <string name="pair_failed_other">Das ist kein NectarLink-Kopplungscode oder etwas ist schiefgelaufen.</string>
+    <string name="pair_failed_other">Das ist kein ZoopSync-Kopplungscode oder etwas ist schiefgelaufen.</string>
     <string name="your_pc">dein PC</string>
-    <string name="camera_permission_needed">NectarLink benötigt die Kamera, um den Kopplungscode zu scannen. Es wird nichts aufgenommen.</string>
+    <string name="camera_permission_needed">ZoopSync benötigt die Kamera, um den Kopplungscode zu scannen. Es wird nichts aufgenommen.</string>
 
     <!-- Home -->
     <string name="home_title">Startseite</string>
@@ -62,7 +62,7 @@
     <string name="settings_notifications">Benachrichtigungen</string>
     <string name="notifications_title">Benachrichtigungen auf deinem PC anzeigen</string>
     <string name="notifications_on">Ein: Benachrichtigungen erscheinen auf deinen gekoppelten PCs, wo du darauf antworten und sie verwerfen kannst.</string>
-    <string name="notifications_off">NectarLink benötigt Benachrichtigungszugriff, um die Benachrichtigungen dieses Geräts auf deinem PC anzuzeigen.</string>
+    <string name="notifications_off">ZoopSync benötigt Benachrichtigungszugriff, um die Benachrichtigungen dieses Geräts auf deinem PC anzuzeigen.</string>
     <string name="notifications_restricted">Schalter ausgegraut? Öffne „App-Info“, tippe auf ⋮, wähle „Eingeschränkte Einstellungen zulassen“ und versuche es erneut.</string>
     <string name="action_allow">Erlauben</string>
     <string name="clip_share_label">An PC senden</string>
@@ -76,12 +76,12 @@
     <string name="media_previous">Vorheriger Titel</string>
     <string name="action_send_files">Dateien senden</string>
     <string name="action_send_folder">Ordner senden</string>
-    <string name="input_service_label">NectarLink: Steuerung vom PC</string>
+    <string name="input_service_label">ZoopSync: Steuerung vom PC</string>
     <string name="input_service_description">Ermöglicht es Maus und Tastatur deines PCs, auf diesem Gerät zu tippen, zu wischen und zu schreiben, während du den Bildschirm mit einem gekoppelten PC teilst. Es werden keine anderen Inhalte gelesen.</string>
     <string name="settings_control">Steuerung vom PC</string>
     <string name="control_title">Maus und Tastatur deines PCs verwenden</string>
     <string name="control_on">Ein: Solange dein Bildschirm auf deinem PC angezeigt wird, kannst du von dort aus tippen, wischen und schreiben.</string>
-    <string name="control_off">Tippe, wische und schreibe von deinem PC aus, während er diesen Bildschirm anzeigt. Aktiviere NectarLink in den Bedienungshilfen.</string>
+    <string name="control_off">Tippe, wische und schreibe von deinem PC aus, während er diesen Bildschirm anzeigt. Aktiviere ZoopSync in den Bedienungshilfen.</string>
     <string name="dnd_access_title">Bitte nicht stören und Lautlos-Modus</string>
     <string name="dnd_access_on">Ein: Dein PC kann „Bitte nicht stören“ ein- oder ausschalten und den Klingelton lautlos stellen.</string>
     <string name="dnd_access_off">Erlaube deinem PC, „Bitte nicht stören“ ein- oder auszuschalten und den Klingelton lautlos zu stellen.</string>
@@ -89,7 +89,7 @@
     <string name="write_settings_on">Ein: Dein PC kann die Bildschirmhelligkeit dieses Geräts anpassen.</string>
     <string name="write_settings_off">Erlaube deinem PC, die Bildschirmhelligkeit dieses Geräts anzupassen.</string>
     <string name="local_network_title">Deinen PC in diesem Netzwerk erreichen</string>
-    <string name="local_network_text">Android fragt nach, bevor eine App mit Geräten in deinem Netzwerk kommuniziert. NectarLink benötigt dies, um deinen PC zu erreichen.</string>
+    <string name="local_network_text">Android fragt nach, bevor eine App mit Geräten in deinem Netzwerk kommuniziert. ZoopSync benötigt dies, um deinen PC zu erreichen.</string>
     <string name="channel_elevated">Einrichtung für Kabelloses Debugging</string>
     <string name="elevated_title">Echte Touch- und Tasteneingabe (Kabelloses Debugging)</string>
     <string name="elevated_not_set_up">Echtzeit-Toucheingabe, alle Tasten sowie Stummschalten, Halten und Ziffernblock bei Anrufen direkt vom PC. Nutzt das Android-eigene Kabellose Debugging.</string>
@@ -97,18 +97,18 @@
     <string name="elevated_starting">Wird gestartet…</string>
     <string name="elevated_running">Ein: Maus und Tastatur deines PCs funktionieren wie ein echter Touchscreen und eine echte Tastatur.</string>
     <string name="elevated_failed">Start fehlgeschlagen. Prüfe, ob Kabelloses Debugging aktiviert ist, und versuche es erneut.</string>
-    <string name="elevated_not_paired">Das Gerät hat die Kopplung mit NectarLink vergessen. Richte sie erneut ein.</string>
+    <string name="elevated_not_paired">Das Gerät hat die Kopplung mit ZoopSync vergessen. Richte sie erneut ein.</string>
     <string name="elevated_set_up">Einrichten</string>
     <string name="elevated_use_root">Root verwenden</string>
     <string name="elevated_root_hint">Dieses Gerät ist gerootet, daher kann der erweiterte Modus stattdessen über Root starten: ohne Kopplung, und er ist nach einem Neustart oder ohne WLAN von selbst wieder da. Er erhält dieselben Berechtigungen wie beim Kabellosen Debugging.</string>
     <string name="elevated_running_root">Ein (über Root): Maus und Tastatur deines PCs funktionieren wie ein echter Touchscreen und eine echte Tastatur.</string>
-    <string name="elevated_root_failed">Root-Zugriff wurde nicht gewährt oder dein Root-Manager kann den NectarLink-Helfer nicht als Shell-Benutzer starten. Du kannst ihn stattdessen über Kabelloses Debugging einrichten.</string>
+    <string name="elevated_root_failed">Root-Zugriff wurde nicht gewährt oder dein Root-Manager kann den ZoopSync-Helfer nicht als Shell-Benutzer starten. Du kannst ihn stattdessen über Kabelloses Debugging einrichten.</string>
     <string name="elevated_turn_off">Ausschalten</string>
     <string name="elevated_try_again">Erneut versuchen</string>
     <string name="elevated_steps_title">Kabelloses Debugging einrichten</string>
-    <string name="elevated_steps">Einmalcodes in Benachrichtigungen, die Android als vertraulich ausblendet, erreichen damit ebenfalls deinen PC.\n\n1. Entwickleroptionen aktivieren: Tippe in „Einstellungen › Über das Telefon“ 7-mal auf „Build-Nummer“.\n2. Aktiviere in den Entwickleroptionen „Kabelloses Debugging“ (im WLAN), öffne es und tippe auf „Gerät mit Kopplungscode koppeln“.\n3. Gib den 6-stelligen Code in die Benachrichtigung von NectarLink ein, ohne den Code-Dialog zu schließen.</string>
+    <string name="elevated_steps">Einmalcodes in Benachrichtigungen, die Android als vertraulich ausblendet, erreichen damit ebenfalls deinen PC.\n\n1. Entwickleroptionen aktivieren: Tippe in „Einstellungen › Über das Telefon“ 7-mal auf „Build-Nummer“.\n2. Aktiviere in den Entwickleroptionen „Kabelloses Debugging“ (im WLAN), öffne es und tippe auf „Gerät mit Kopplungscode koppeln“.\n3. Gib den 6-stelligen Code in die Benachrichtigung von ZoopSync ein, ohne den Code-Dialog zu schließen.</string>
     <string name="elevated_open_developer">Entwickleroptionen öffnen</string>
-    <string name="elevated_pair_title">NectarLink mit Kabellosem Debugging koppeln</string>
+    <string name="elevated_pair_title">ZoopSync mit Kabellosem Debugging koppeln</string>
     <string name="elevated_pair_text">Tippe in „Kabelloses Debugging“ auf „Gerät mit Kopplungscode koppeln“ und gib den Code anschließend hier ein.</string>
     <string name="elevated_pair_action">Code eingeben</string>
     <string name="elevated_pair_hint">6-stelliger Kopplungscode</string>
@@ -172,7 +172,7 @@
     <string name="clip_empty">Die Zwischenablage enthält weder Text noch Bild.</string>
     <string name="clip_image_too_large">Dieses Bild ist zu groß zum Senden.</string>
     <string name="clip_image_unreadable">Dieses Bild kann nicht gelesen werden.</string>
-    <string name="clip_image_unsupported">Aktualisiere NectarLink auf %1$s, um Bilder dorthin zu senden.</string>
+    <string name="clip_image_unsupported">Aktualisiere ZoopSync auf %1$s, um Bilder dorthin zu senden.</string>
     <string name="clip_nothing_shared">Es gibt keinen Text zum Senden.</string>
     <string name="clipboard_history_title">Zwischenablageverlauf</string>
     <string name="clipboard_history_subtitle">Deine letzten 50 Einträge mit deinen PCs, verschlüsselt auf diesem Gerät gespeichert.</string>
@@ -200,20 +200,20 @@
     <string name="clip_action_track">Verfolgen</string>
     <string name="clip_action_email">E-Mail</string>
     <string name="background_title">Im Hintergrund erreichbar bleiben</string>
-    <string name="background_text">Android pausiert NectarLink, um Akku zu sparen, sodass dein PC es nicht erreichen kann. Erlaube die Ausführung im Hintergrund.</string>
+    <string name="background_text">Android pausiert ZoopSync, um Akku zu sparen, sodass dein PC es nicht erreichen kann. Erlaube die Ausführung im Hintergrund.</string>
     <string name="background_on">Verbindung im Hintergrund erlaubt</string>
     <string name="settings_background_title">Hintergrund &amp; Akku</string>
     <string name="settings_run_in_background">Im Hintergrund ausführen</string>
-    <string name="settings_run_in_background_hint">Hält dieses Gerät für deinen PC erreichbar. Wenn ausgeschaltet, verbindet sich NectarLink nur, solange die App geöffnet ist, und die Benachrichtigung wird ausgeblendet.</string>
+    <string name="settings_run_in_background_hint">Hält dieses Gerät für deinen PC erreichbar. Wenn ausgeschaltet, verbindet sich ZoopSync nur, solange die App geöffnet ist, und die Benachrichtigung wird ausgeblendet.</string>
     <string name="home_background_off_title">Hintergrundverbindung ist aus</string>
-    <string name="home_background_off_text">NectarLink verbindet sich nur, solange die App geöffnet ist. Schalte sie ein, damit dieses Gerät für deinen PC erreichbar bleibt.</string>
+    <string name="home_background_off_text">ZoopSync verbindet sich nur, solange die App geöffnet ist. Schalte sie ein, damit dieses Gerät für deinen PC erreichbar bleibt.</string>
     <string name="battery_open_oem_settings">Akkueinstellungen</string>
-    <string name="battery_guide_samsung">Auf Samsung: Öffne „App-Info › Akku › Nicht eingeschränkt“ und stelle unter „Gerätewartung › Akku › Grenzen der Hintergrundnutzung“ sicher, dass NectarLink nie in den Standby versetzt wird.</string>
-    <string name="battery_guide_xiaomi">Auf Xiaomi / HyperOS / MIUI: Aktiviere „Autostart“ für NectarLink und wähle unter „App-Info › Energiesparmodus“ die Option „Keine Beschränkungen“.</string>
+    <string name="battery_guide_samsung">Auf Samsung: Öffne „App-Info › Akku › Nicht eingeschränkt“ und stelle unter „Gerätewartung › Akku › Grenzen der Hintergrundnutzung“ sicher, dass ZoopSync nie in den Standby versetzt wird.</string>
+    <string name="battery_guide_xiaomi">Auf Xiaomi / HyperOS / MIUI: Aktiviere „Autostart“ für ZoopSync und wähle unter „App-Info › Energiesparmodus“ die Option „Keine Beschränkungen“.</string>
     <string name="battery_guide_oneplus">Auf OnePlus / OxygenOS: Öffne „App-Info › Akkunutzung“ und aktiviere „Hintergrundaktivität zulassen“ sowie „Automatischen Start zulassen“.</string>
     <string name="battery_guide_oppo_realme">Auf Oppo / Realme: Öffne „App-Info › Akkunutzung“ und aktiviere „Hintergrundaktivität zulassen“ sowie „Automatischen Start zulassen“.</string>
     <string name="battery_guide_vivo">Auf Vivo / Funtouch / OriginOS: Öffne „App-Info › Akku“, wähle „Nicht eingeschränkt (Hoher Hintergrundstromverbrauch)“ und erlaube „Autostart“.</string>
-    <string name="battery_guide_huawei">Auf Huawei / Honor: Öffne „App-Start“ (Telefonmanager), deaktiviere „Automatisch verwalten“ für NectarLink und lasse „Auto-Start“, „Sekundärer Start“ und „Im Hintergrund ausführen“ aktiviert.</string>
+    <string name="battery_guide_huawei">Auf Huawei / Honor: Öffne „App-Start“ (Telefonmanager), deaktiviere „Automatisch verwalten“ für ZoopSync und lasse „Auto-Start“, „Sekundärer Start“ und „Im Hintergrund ausführen“ aktiviert.</string>
     <string name="battery_guide_pixel">Auf Pixel: Öffne „App-Info › App-Akkunutzung“, tippe auf „Hintergrundnutzung zulassen“ und wähle „Uneingeschränkt“.</string>
     <string name="action_manage">Verwalten</string>
     <string name="action_app_info">App-Info</string>
@@ -229,10 +229,10 @@
     <string name="mode_system">System</string>
     <string name="mode_light">Hell</string>
     <string name="mode_dark">Dunkel</string>
-    <string name="about_version">NectarLink %1$s</string>
+    <string name="about_version">ZoopSync %1$s</string>
     <string name="unpair_title">%1$s entkoppeln?</string>
     <string name="unpair_text">Beide Geräte vergessen einander. Du kannst sie jederzeit erneut koppeln.</string>
-    <string name="core_failed">NectarLink konnte nicht starten: %1$s</string>
+    <string name="core_failed">ZoopSync konnte nicht starten: %1$s</string>
 
     <!-- Actions -->
     <string name="action_pair">Koppeln</string>
@@ -254,21 +254,21 @@
     <string name="action_pair_new">Weiteren PC koppeln</string>
     <string name="action_refresh">Aktualisieren</string>
     <string name="action_update">Aktualisieren</string>
-    <string name="update_title">NectarLink %1$s ist verfügbar</string>
+    <string name="update_title">ZoopSync %1$s ist verfügbar</string>
     <string name="update_text">Hol dir die neuesten Verbesserungen und Fehlerbehebungen.</string>
     <string name="update_downloading">Wird heruntergeladen…</string>
     <string name="update_downloading_progress">Wird heruntergeladen · %1$s von %2$s</string>
     <string name="update_waiting_network">Warte auf eine Verbindung. Der Download wird dort fortgesetzt, wo er unterbrochen wurde.</string>
     <string name="update_installing">Wird installiert. Android bittet dich möglicherweise um Bestätigung.</string>
-    <string name="update_not_allowed">Erlaube NectarLink, Updates zu installieren. Das Update wird fortgesetzt, sobald du zurückkehrst.</string>
+    <string name="update_not_allowed">Erlaube ZoopSync, Updates zu installieren. Das Update wird fortgesetzt, sobald du zurückkehrst.</string>
     <string name="update_damaged">Der Download war beschädigt und wurde daher nicht installiert. Versuche es erneut.</string>
     <string name="update_offline">Das Update konnte nicht heruntergeladen werden. Versuche es erneut, sobald du online bist.</string>
     <string name="update_install_failed">Android hat das Update nicht installiert. Versuche es erneut.</string>
     <string name="update_whats_new">Neuigkeiten</string>
     <string name="update_check">Nach Updates suchen</string>
     <string name="update_checking">Suche nach Updates…</string>
-    <string name="update_up_to_date_version">NectarLink %1$s ist auf dem neuesten Stand.</string>
-    <string name="update_current_version">Du verwendest NectarLink %1$s.</string>
+    <string name="update_up_to_date_version">ZoopSync %1$s ist auf dem neuesten Stand.</string>
+    <string name="update_current_version">Du verwendest ZoopSync %1$s.</string>
     <string name="update_check_failed">Suche nach Updates fehlgeschlagen. Prüfe deine Internetverbindung.</string>
     <string name="action_lock_pc">PC sperren</string>
     <string name="action_sleep_pc">Energie sparen</string>
@@ -351,11 +351,11 @@
     <string name="remote_dictate_no_recognizer">Auf diesem Gerät ist keine Spracherkennung installiert.</string>
     <string name="remote_dictate_no_speech">Nichts verstanden. Tippe oder halte „Diktieren“, um es erneut zu versuchen.</string>
     <string name="remote_dictate_error">Die Spracherkennung konnte nicht abgeschlossen werden. Tippe oder halte „Diktieren“, um es erneut zu versuchen.</string>
-    <string name="remote_dictate_permission_needed">NectarLink benötigt Mikrofonzugriff, um auf %1$s zu diktieren.</string>
+    <string name="remote_dictate_permission_needed">ZoopSync benötigt Mikrofonzugriff, um auf %1$s zu diktieren.</string>
     <string name="remote_denied_title">Steuerung auf %1$s erlauben</string>
-    <string name="remote_denied_text">Erlaube auf %1$s die Steuerung durch dieses Gerät im NectarLink-Hinweis oder unter „Einstellungen › Geräte“.</string>
+    <string name="remote_denied_text">Erlaube auf %1$s die Steuerung durch dieses Gerät im ZoopSync-Hinweis oder unter „Einstellungen › Geräte“.</string>
     <string name="remote_offline_text">%1$s ist momentan nicht verbunden.</string>
-    <string name="remote_unsupported_text">Aktualisiere NectarLink auf %1$s, um ihn von diesem Gerät aus zu steuern.</string>
+    <string name="remote_unsupported_text">Aktualisiere ZoopSync auf %1$s, um ihn von diesem Gerät aus zu steuern.</string>
     <string name="remote_slide_next">Nächste Folie</string>
     <string name="remote_slide_prev">Vorherige Folie</string>
     <string name="remote_slide_start">Präsentation starten</string>
@@ -396,7 +396,7 @@
     <string name="recorder_notification_recording">Aufnahme für %1$s</string>
     <string name="recorder_notification_paused">Aufnahme pausiert (%1$s)</string>
     <string name="recorder_permission_title">Mikrofonzugriff erlauben</string>
-    <string name="recorder_permission_text">NectarLink verwendet das Mikrofon nur, während du eine Sprachnotiz zum Senden an %1$s aufnimmst.</string>
+    <string name="recorder_permission_text">ZoopSync verwendet das Mikrofon nur, während du eine Sprachnotiz zum Senden an %1$s aufnimmst.</string>
     <string name="recorder_allow_mic">Mikrofon erlauben</string>
     <string name="recorder_offline_hint">Aufnahmen werden auf diesem Gerät gespeichert und automatisch gesendet, sobald %1$s verbunden ist.</string>
     <string name="recorder_status_ready">Aufnahmebereit für %1$s</string>
@@ -428,9 +428,9 @@
     <string name="deck_muted">Stumm</string>
     <string name="deck_live">Live</string>
     <string name="deck_volume_percent">%1$d%%</string>
-    <string name="deck_empty_page">Noch keine Kacheln auf dieser Seite. Füge Kacheln in NectarLink auf %1$s hinzu.</string>
+    <string name="deck_empty_page">Noch keine Kacheln auf dieser Seite. Füge Kacheln in ZoopSync auf %1$s hinzu.</string>
     <string name="deck_commands_denied_title">Befehle auf %1$s erlauben</string>
-    <string name="deck_commands_denied_text">Um Shell-Befehle von diesem Gerät auszuführen, aktiviere „Deck-Befehle ausführen“ für dieses Gerät unter „NectarLink › Einstellungen › Geräte“ auf %1$s.</string>
+    <string name="deck_commands_denied_text">Um Shell-Befehle von diesem Gerät auszuführen, aktiviere „Deck-Befehle ausführen“ für dieses Gerät unter „ZoopSync › Einstellungen › Geräte“ auf %1$s.</string>
     <string name="deck_hint">Kacheln im Deck auf %1$s anpassen</string>
     <string name="pc_audio_volume">Lautstärke</string>
     <string name="pc_audio_mute">Stummschalten</string>
@@ -470,7 +470,7 @@
     <string name="webcam_request_title">%1$s möchte deine Kamera verwenden</string>
     <string name="webcam_request_text">Tippe, um die Webcam-Steuerung zu öffnen und den Stream zu starten.</string>
     <string name="webcam_permission_title">Kamerazugriff erlauben</string>
-    <string name="webcam_permission_text">NectarLink verwendet die Kamera nur, während du Video als Webcam an %1$s streamst.</string>
+    <string name="webcam_permission_text">ZoopSync verwendet die Kamera nur, während du Video als Webcam an %1$s streamst.</string>
     <string name="webcam_allow_camera">Kamera erlauben</string>
     <string name="webcam_status_connecting">Kamera wird mit %1$s verbunden…</string>
     <string name="webcam_status_ready">Bereit zum Streamen an %1$s</string>
@@ -668,7 +668,7 @@
     <string name="widget_pc_title">PC-Schnellaktionen</string>
     <string name="widget_pc_description">Verbindungsstatus, Zwischenablage senden, PC klingeln lassen, PC sperren und Aufwecken für deinen gekoppelten PC.</string>
     <string name="widget_pc_no_pc">Kein PC gekoppelt</string>
-    <string name="widget_pc_tap_to_pair">Tippen, um NectarLink zu öffnen und einen PC zu koppeln</string>
+    <string name="widget_pc_tap_to_pair">Tippen, um ZoopSync zu öffnen und einen PC zu koppeln</string>
     <string name="widget_pc_connected">Verbunden</string>
     <string name="widget_pc_offline">Offline</string>
     <string name="widget_pc_waking">Wird aufgeweckt…</string>
@@ -681,8 +681,8 @@
 
     <!-- Companion Device Manager proximity wake -->
     <string name="companion_wake_title">Aufwecken, wenn PC in der Nähe ist (Begleitgerät)</string>
-    <string name="companion_wake_on">Verknüpft · Android weckt NectarLink auf, wenn dein PC in der Nähe ist</string>
-    <string name="companion_wake_off">Verknüpfe deinen PC, damit Android NectarLink aufweckt, sobald sein BLE-Signal in Reichweite ist</string>
+    <string name="companion_wake_on">Verknüpft · Android weckt ZoopSync auf, wenn dein PC in der Nähe ist</string>
+    <string name="companion_wake_off">Verknüpfe deinen PC, damit Android ZoopSync aufweckt, sobald sein BLE-Signal in Reichweite ist</string>
     <string name="companion_wake_associate">Verknüpfen</string>
 
     <!-- Flick to Send sheet -->
@@ -699,9 +699,9 @@
     <string name="pc_files_downloading">%1$s wird heruntergeladen…</string>
     <string name="pc_files_saved">%1$s in Downloads gespeichert</string>
     <string name="pc_files_failed">%1$s konnte nicht heruntergeladen werden</string>
-    <string name="pc_files_not_shared">Aktiviere „Dein PC in der Hosentasche“ in den NectarLink-Einstellungen auf %1$s.</string>
+    <string name="pc_files_not_shared">Aktiviere „Dein PC in der Hosentasche“ in den ZoopSync-Einstellungen auf %1$s.</string>
     <string name="pc_files_offline">%1$s ist nicht verbunden.</string>
-    <string name="pc_files_update">Aktualisiere NectarLink auf %1$s, um dessen Dateien zu durchsuchen.</string>
+    <string name="pc_files_update">Aktualisiere ZoopSync auf %1$s, um dessen Dateien zu durchsuchen.</string>
     <string name="pc_files_not_found">Dieser Ordner ist auf %1$s nicht mehr vorhanden.</string>
     <string name="pc_files_error">Dieser Ordner auf %1$s konnte nicht aufgelistet werden. Versuche es erneut.</string>
     <string name="pc_files_folder_downloads">Downloads</string>
@@ -716,7 +716,7 @@
     <string name="mirror_allow_pc_control">PC-Maussteuerung erlauben</string>
     <string name="action_open_controls">Steuerung</string>
     <string name="remote_input_requested_title">Dein PC hat versucht, dieses Gerät zu steuern</string>
-    <string name="remote_input_requested_text">Aktiviere „NectarLink: Steuerung vom PC“ in den Bedienungshilfen, um Maus und Tastatur deines PCs auf diesem Gerät zu nutzen.</string>
+    <string name="remote_input_requested_text">Aktiviere „ZoopSync: Steuerung vom PC“ in den Bedienungshilfen, um Maus und Tastatur deines PCs auf diesem Gerät zu nutzen.</string>
     <string name="permissions_setup_title">Berechtigungen &amp; Einrichtung (%1$d offen)</string>
     <string name="permissions_setup_subtitle">Benachrichtigungen, Anrufe, SMS, Fotos und Hintergrundzugriff</string>
     <string name="clipboard_preview_hidden">••••••••••••</string>
@@ -805,10 +805,10 @@
 
     <string name="walkthrough_perm_access_title">Assistenz</string>
     <string name="walkthrough_perm_access_does">Deinen gespiegelten Gerätebildschirm vom PC aus mit Maus und Tastatur steuern.</string>
-    <string name="walkthrough_perm_access_requires">Android benötigt den NectarLink-Bedienungshilfendienst oder den erweiterten Modus.</string>
+    <string name="walkthrough_perm_access_requires">Android benötigt den ZoopSync-Bedienungshilfendienst oder den erweiterten Modus.</string>
 
     <string name="walkthrough_pair_title">Mit deinem PC koppeln</string>
-    <string name="walkthrough_pair_subtitle">Öffne NectarLink auf deinem PC. Scanne den QR-Code oder wähle deinen PC unten aus.</string>
+    <string name="walkthrough_pair_subtitle">Öffne ZoopSync auf deinem PC. Scanne den QR-Code oder wähle deinen PC unten aus.</string>
     <string name="walkthrough_pair_ready_title">Gekoppelter PC</string>
     <string name="walkthrough_pair_badge_paired">Gekoppelt</string>
     <string name="walkthrough_pair_device_online">%1$s · Verbunden</string>
@@ -847,7 +847,7 @@
     <string name="walkthrough_power_elevated_step3">3. Aktiviere „Kabelloses Debugging“, tippe auf „Gerät mit Kopplungscode koppeln“ und gib den 6-stelligen Code in der Benachrichtigung ein.</string>
 
     <string name="walkthrough_done_title">Einrichtung abgeschlossen</string>
-    <string name="walkthrough_done_subtitle">NectarLink ist bereit. Du kannst diesen Einrichtungsassistenten jederzeit unter Einstellungen › Info erneut öffnen.</string>
+    <string name="walkthrough_done_subtitle">ZoopSync ist bereit. Du kannst diesen Einrichtungsassistenten jederzeit unter Einstellungen › Info erneut öffnen.</string>
     <string name="walkthrough_done_summary_heading">Deine Einrichtung</string>
     <string name="walkthrough_done_paired_label">Gekoppelter PC</string>
     <string name="walkthrough_done_no_pc">Noch keiner · jederzeit auf der Startseite koppeln</string>
@@ -859,7 +859,7 @@
     <string name="walkthrough_done_no_permissions">Noch keine erteilt</string>
     <string name="walkthrough_done_try_heading">Gleich ausprobieren</string>
     <string name="walkthrough_done_try_1">1. Kopiere Text und tippe auf die Kachel „Zwischenablage senden“, um ihn auf deinem PC einzufügen.</string>
-    <string name="walkthrough_done_try_2">2. Teile eine beliebige Datei oder einen Link über das Android-Teilen-Menü mit NectarLink.</string>
+    <string name="walkthrough_done_try_2">2. Teile eine beliebige Datei oder einen Link über das Android-Teilen-Menü mit ZoopSync.</string>
 
     <!-- Features Guide Chrome -->
     <string name="guide_back">Zurück</string>
@@ -921,12 +921,12 @@
     <string name="guide_notif_summary">Gerätebenachrichtigungen auf deinem PC sehen, verwerfen oder direkt beantworten.</string>
     <string name="guide_notif_where">Einstellungen › Berechtigungen › Benachrichtigungen</string>
     <string name="guide_notif_needs">Benachrichtigungszugriff, Schalter „Benachrichtigungen“ für den PC aktiviert</string>
-    <string name="guide_notif_need_1">Android-Benachrichtigungszugriff für NectarLink aktiviert.</string>
+    <string name="guide_notif_need_1">Android-Benachrichtigungszugriff für ZoopSync aktiviert.</string>
     <string name="guide_notif_need_2">Ab Android 13 bei manueller APK-Installation „Eingeschränkte Einstellungen zulassen“ in der App-Info aktiviert.</string>
     <string name="guide_notif_need_3">PC gekoppelt und online.</string>
     <string name="guide_notif_phone_1">Öffne Einstellungen › Berechtigungen › Benachrichtigungen und tippe auf „Erlauben“.</string>
-    <string name="guide_notif_phone_2">Aktiviere NectarLink im Android-Benachrichtigungszugriff.</string>
-    <string name="guide_notif_pc_1">Sieh dir Gerätebenachrichtigungen im PC-Benachrichtigungscenter oder im NectarLink-Fenster an.</string>
+    <string name="guide_notif_phone_2">Aktiviere ZoopSync im Android-Benachrichtigungszugriff.</string>
+    <string name="guide_notif_pc_1">Sieh dir Gerätebenachrichtigungen im PC-Benachrichtigungscenter oder im ZoopSync-Fenster an.</string>
     <string name="guide_notif_pc_2">Tippe eine Antwort direkt auf der Karte ein und drücke „Senden“ oder verwirf sie, um sie auf beiden Geräten zu löschen.</string>
     <string name="guide_notif_opt_1">Erlauben / Verwalten: Öffnet die Android-Einstellungen für den Benachrichtigungszugriff.</string>
     <string name="guide_notif_opt_2">Benachrichtigungs-Schalter pro PC: Legt fest, ob ein gekoppelter PC Benachrichtigungen erhält.</string>
@@ -985,7 +985,7 @@
     <string name="guide_clip_needs">Gekoppelter PC; erweiterter Modus für automatische Hintergrund-Synchronisierung vom Gerät zum PC</string>
     <string name="guide_clip_need_1">Die Synchronisierung vom PC zum Gerät und die Kachel „Zwischenablage senden“ funktionieren sofort ohne Zusatzschritte.</string>
     <string name="guide_clip_need_2">Der erweiterte Modus ergänzt die automatische Synchronisierung der Zwischenablage vom Gerät zum PC.</string>
-    <string name="guide_clip_phone_1">Kopiere Text oder ein Bild auf deinem Gerät und öffne dann NectarLink oder tippe auf die Kachel „Zwischenablage senden“.</string>
+    <string name="guide_clip_phone_1">Kopiere Text oder ein Bild auf deinem Gerät und öffne dann ZoopSync oder tippe auf die Kachel „Zwischenablage senden“.</string>
     <string name="guide_clip_phone_2">Tippe auf der Startseite auf „Zwischenablage-Verlauf“, um letzte Einträge anzusehen, anzuheften, zu kopieren oder zu löschen.</string>
     <string name="guide_clip_pc_1">Kopiere Text oder ein Bild auf deinem PC, um es an die Zwischenablage deines Geräts zu senden.</string>
     <string name="guide_clip_opt_1">Anzeigen / Ausblenden: Verbirgt oder zeigt die Vorschau des letzten Eintrags auf der Startseite.</string>
@@ -1017,7 +1017,7 @@
     <string name="guide_files_need_1">Gekoppelter PC (Offline-Dateien warten bis zu 7 Tage in der Sendewarteschlange).</string>
     <string name="guide_files_phone_1">Tippe auf der Startseite auf der Karte deines gekoppelten PCs auf „Dateien senden“ oder „Ordner senden“.</string>
     <string name="guide_files_phone_2">Pausiere, setze fort oder brich aktive Übertragungen in der Karte „Übertragungen“ auf der Startseite ab.</string>
-    <string name="guide_files_pc_1">Ziehe Dateien auf das NectarLink-Fenster oder auf die Nectar Island am oberen Bildschirmrand deines PCs.</string>
+    <string name="guide_files_pc_1">Ziehe Dateien auf das ZoopSync-Fenster oder auf die Nectar Island am oberen Bildschirmrand deines PCs.</string>
     <string name="guide_files_opt_1">Dateien senden / Ordner senden: Überträgt einzelne Dateien oder komplette Ordnerstrukturen.</string>
     <string name="guide_files_opt_2">Pause / Fortsetzen: Setzt unterbrochene Übertragungen fort, ohne bereits übertragene Bytes erneut zu senden.</string>
     <string name="guide_files_privacy">Dateien werden über QUIC TLS 1.3 mit BLAKE3-Integritätsprüfung in den Ordner Download/Nectarlink übertragen.</string>
@@ -1042,7 +1042,7 @@
     <string name="guide_share_where">Android-Teilen-Menü › An PC senden</string>
     <string name="guide_share_needs">Gekoppelter PC</string>
     <string name="guide_share_ext_1">1. Tippe in einem beliebigen Browser, einer Galerie oder einer Dokumenten-App auf deinem Gerät auf „Teilen“.</string>
-    <string name="guide_share_ext_2">2. Wähle NectarLink („An PC senden“ oder „Auf PC öffnen“).</string>
+    <string name="guide_share_ext_2">2. Wähle ZoopSync („An PC senden“ oder „Auf PC öffnen“).</string>
     <string name="guide_share_need_1">Mindestens ein gekoppelter PC.</string>
     <string name="guide_share_phone_1">Teile einen beliebigen Link oder eine Datei über das Android-Teilen-Menü und wähle deinen Ziel-PC.</string>
     <string name="guide_share_pc_1">Links öffnen sich im Standardbrowser deines PCs; Dateien werden unter „Downloads“ gespeichert.</string>
@@ -1059,7 +1059,7 @@
     <string name="guide_storage_need_2">„Gerätespeicher im Datei-Explorer durchsuchen“ für den PC unter Einstellungen › Geräte aktiviert.</string>
     <string name="guide_storage_phone_1">Erteile den Zugriff auf alle Dateien oder wähle Ordner unter Einstellungen › Berechtigungen › Fotos und Videos aus.</string>
     <string name="guide_storage_phone_2">Aktiviere den Speicherschalter für deinen PC unter Einstellungen › Geräte.</string>
-    <string name="guide_storage_pc_1">Öffne deinen Gerätespeicher über NectarLink oder den Windows-Datei-Explorer auf deinem PC.</string>
+    <string name="guide_storage_pc_1">Öffne deinen Gerätespeicher über ZoopSync oder den Windows-Datei-Explorer auf deinem PC.</string>
     <string name="guide_storage_opt_1">Zugriff auf alle Dateien / Nur ausgewählte Ordner: Gib den gesamten Speicher oder nur ausgewählte SAF-Ordner frei.</string>
     <string name="guide_storage_privacy">Das Durchsuchen des Speichers ist für jeden PC standardmäßig deaktiviert, bis du es einschaltest.</string>
     <string name="guide_storage_limits">Android blockiert den Zugriff auf private App-Verzeichnisse unter /Android/data.</string>
@@ -1071,7 +1071,7 @@
     <string name="guide_pc_files_needs">Verbundener gekoppelter PC mit aktivierter Speicherfreigabe</string>
     <string name="guide_pc_files_need_1">Verbundener gekoppelter PC, der seine Ordner freigibt („Dein PC in der Hosentasche“).</string>
     <string name="guide_pc_files_phone_1">Tippe auf der Startseite auf der Karte deines gekoppelten PCs auf „PC-Dateien durchsuchen“ und tippe auf eine Datei, um sie herunterzuladen.</string>
-    <string name="guide_pc_files_pc_1">Aktiviere „Dein PC in der Hosentasche“ in den NectarLink-Einstellungen auf deinem PC.</string>
+    <string name="guide_pc_files_pc_1">Aktiviere „Dein PC in der Hosentasche“ in den ZoopSync-Einstellungen auf deinem PC.</string>
     <string name="guide_pc_files_opt_1">Ansicht „PC-Dateien durchsuchen“: Navigiere durch PC-Ordner und lade Dateien in „Downloads“ herunter.</string>
     <string name="guide_pc_files_privacy">Heruntergeladene Dateien werden lokal im Downloads-Ordner deines Geräts gespeichert.</string>
     <string name="guide_pc_files_limits">Erfordert, dass der gekoppelte PC online ist.</string>
@@ -1146,7 +1146,7 @@
     <string name="guide_webcam_needs">Kameraberechtigung, verbundener gekoppelter PC</string>
     <string name="guide_webcam_need_1">Kameraberechtigung unter Android und ein verbundener gekoppelter PC.</string>
     <string name="guide_webcam_phone_1">Tippe auf der Startseite auf der Karte deines gekoppelten PCs auf „Webcam“, wähle Auflösung und Objektiv und tippe auf „Webcam starten“.</string>
-    <string name="guide_webcam_pc_1">Sieh dir den Live-Kamerastream in NectarLink auf deinem PC an oder nimm ihn auf.</string>
+    <string name="guide_webcam_pc_1">Sieh dir den Live-Kamerastream in ZoopSync auf deinem PC an oder nimm ihn auf.</string>
     <string name="guide_webcam_opt_1">Kamera wechseln / Taschenlampe / Zoom / Auflösung (720p, 1080p, 4K): Live-Kamerasteuerung.</string>
     <string name="guide_webcam_privacy">Startet niemals heimlich im Hintergrund; zeigt während des Streamings eine laufende Benachrichtigung an.</string>
     <string name="guide_webcam_limits">1080p mit 60 fps und 4K erfordern Hardware-Encoder-Unterstützung sowie schnelles WLAN oder USB.</string>
@@ -1158,7 +1158,7 @@
     <string name="guide_continuity_needs">Kameraberechtigung, verbundener gekoppelter PC</string>
     <string name="guide_continuity_need_1">Kameraberechtigung unter Android und ein verbundener gekoppelter PC.</string>
     <string name="guide_continuity_phone_1">Tippe auf die Anfrage-Benachrichtigung oder das Banner, mach ein Foto oder passe die Dokumentenecken an und tippe auf „Senden“.</string>
-    <string name="guide_continuity_pc_1">Starte „Foto aufnehmen“ oder „Dokument scannen“ in NectarLink auf deinem PC.</string>
+    <string name="guide_continuity_pc_1">Starte „Foto aufnehmen“ oder „Dokument scannen“ in ZoopSync auf deinem PC.</string>
     <string name="guide_continuity_opt_1">Ecken anpassen / Dokument optimieren: Perspektivischer Zuschnitt und Kontrastverbesserung für Scans.</string>
     <string name="guide_continuity_privacy">Aufnahmen werden erst gesendet, wenn du auf „Foto verwenden“ oder „Scan senden“ tippst.</string>
     <string name="guide_continuity_limits">Kameraanfragen laufen nach 2 Minuten ab, wenn sie nicht beantwortet werden.</string>
@@ -1194,7 +1194,7 @@
     <string name="guide_assist_summary">Lass Maus und Tastatur deines PCs über den Bedienungshilfendienst auf diesem Gerät tippen, wischen und schreiben.</string>
     <string name="guide_assist_where">Einstellungen › Berechtigungen › Steuerung vom PC › Maus und Tastatur deines PCs verwenden</string>
     <string name="guide_assist_needs">Bedienungshilfendienst aktiviert</string>
-    <string name="guide_assist_need_1">NectarLink-Bedienungshilfendienst in den Android-Einstellungen aktiviert.</string>
+    <string name="guide_assist_need_1">ZoopSync-Bedienungshilfendienst in den Android-Einstellungen aktiviert.</string>
     <string name="guide_assist_phone_1">Öffne Einstellungen › Berechtigungen › Steuerung vom PC und tippe unter „Maus und Tastatur deines PCs verwenden“ auf „Erlauben“.</string>
     <string name="guide_assist_pc_1">Klicke, ziehe, scrolle und tippe direkt im Fenster der Gerätespiegelung auf deinem PC.</string>
     <string name="guide_assist_opt_1">Tippen beenden: Beendet die PC-Tastatureingabe über das Banner auf der Startseite.</string>
@@ -1221,7 +1221,7 @@
     <string name="guide_deck_needs">Verbundener gekoppelter PC</string>
     <string name="guide_deck_need_1">Verbundener gekoppelter PC.</string>
     <string name="guide_deck_phone_1">Tippe auf der Startseite auf der Karte deines gekoppelten PCs auf „Deck“ und tippe auf eine Kachel, um ihre Aktion auszulösen.</string>
-    <string name="guide_deck_pc_1">Passe Deck-Seiten und -Kacheln in NectarLink auf deinem PC an.</string>
+    <string name="guide_deck_pc_1">Passe Deck-Seiten und -Kacheln in ZoopSync auf deinem PC an.</string>
     <string name="guide_deck_opt_1">Vollbild: Erweitert das Deck-Raster über den gesamten Gerätebildschirm.</string>
     <string name="guide_deck_privacy">Deck-Layouts und Systemwerte bleiben ausschließlich zwischen deinem Gerät und deinem gekoppelten PC.</string>
     <string name="guide_deck_limits">Kacheln mit Shell-Befehlen erfordern, dass auf deinem PC „Deck-Befehle ausführen“ für dieses Gerät aktiviert ist.</string>
@@ -1243,7 +1243,7 @@
     <string name="guide_wake_summary">Wecke einen schlafenden gekoppelten PC über dein lokales Netzwerk per Wake-on-LAN auf.</string>
     <string name="guide_wake_where">Startseite › Karte des gekoppelten PCs › Aufwecken</string>
     <string name="guide_wake_needs">Gekoppelter PC mit im BIOS und im Netzwerkadapter aktiviertem Wake-on-LAN</string>
-    <string name="guide_wake_need_1">Gekoppelter PC, der mindestens einmal über das lokale Netzwerk verbunden war, damit NectarLink seine MAC-Adresse kennt.</string>
+    <string name="guide_wake_need_1">Gekoppelter PC, der mindestens einmal über das lokale Netzwerk verbunden war, damit ZoopSync seine MAC-Adresse kennt.</string>
     <string name="guide_wake_need_2">Wake-on-LAN in den Windows-Netzwerkadaptereinstellungen und im BIOS/UEFI aktiviert.</string>
     <string name="guide_wake_phone_1">Wenn dein gekoppelter PC auf der Startseite offline ist, tippe auf seiner Karte auf „Aufwecken“.</string>
     <string name="guide_wake_pc_1">Aktiviere das Aufwecken per Wake-on-LAN-Paket im Geräte-Manager › Netzwerkadapter › Energieverwaltung.</string>
@@ -1260,7 +1260,7 @@
     <string name="guide_quick_need_2">„Bitte nicht stören“ und der Lautlos-Modus erfordern den Zugriff auf „Bitte nicht stören“.</string>
     <string name="guide_quick_need_3">Die Steuerung der Gerätehelligkeit erfordert die Berechtigung „Bildschirmhelligkeit“ oder den erweiterten Modus.</string>
     <string name="guide_quick_phone_1">Nutze „PC klingeln lassen“, „PC sperren“ und „Energiesparmodus“ auf der Karte deines gekoppelten PCs auf der Startseite oder füge das Widget „PC-Schnellaktionen“ hinzu.</string>
-    <string name="guide_quick_pc_1">Schalte „Bitte nicht stören“, Klingelton, Taschenlampe, Lautstärke und Helligkeit deines Geräts in NectarLink auf deinem PC um.</string>
+    <string name="guide_quick_pc_1">Schalte „Bitte nicht stören“, Klingelton, Taschenlampe, Lautstärke und Helligkeit deines Geräts in ZoopSync auf deinem PC um.</string>
     <string name="guide_quick_opt_1">Bitte nicht stören / Bildschirmhelligkeit: Erteile die Berechtigung unter Einstellungen › Berechtigungen › Steuerung vom PC.</string>
     <string name="guide_quick_privacy">Befehle werden pro Gerät über TLS 1.3 authentifiziert.</string>
     <string name="guide_quick_limits">Das Sperren und der Energiesparmodus des PCs können pro Gerät in den PC-Einstellungen › Geräte ein- oder ausgeschaltet werden.</string>
@@ -1288,7 +1288,7 @@
     <string name="guide_doctor_phone_1">Öffne Einstellungen › Berechtigungen › Hintergrund &amp; Akku und erlaube die uneingeschränkte Akkunutzung.</string>
     <string name="guide_doctor_phone_2">Folge der Hersteller-Akkuanleitung, falls dein Gerätehersteller Hintergrund-Apps einschränkt.</string>
     <string name="guide_doctor_pc_1">Öffne den Verbindungs-Doktor auf deinem PC, um Übertragungslatenz, Ports und Verbindungszustand zu prüfen.</string>
-    <string name="guide_doctor_opt_1">Aufwecken, wenn PC in der Nähe ist: Verknüpft deinen PC, damit Android NectarLink in BLE-Reichweite aufweckt.</string>
+    <string name="guide_doctor_opt_1">Aufwecken, wenn PC in der Nähe ist: Verknüpft deinen PC, damit Android ZoopSync in BLE-Reichweite aufweckt.</string>
     <string name="guide_doctor_privacy">Diagnosen laufen lokal zwischen deinem Gerät und deinem gekoppelten PC ab.</string>
     <string name="guide_doctor_limits">Bei manchen Geräteherstellern muss die Akkuoptimierung auf „Nicht eingeschränkt“ gestellt werden.</string>
     <string name="pair_link_title">Mit %1$s koppeln?</string>
@@ -1298,18 +1298,18 @@
     <string name="pair_link_unknown_pc">diesem Gerät</string>
     <string name="data_clear_failed">Einige Verlaufsdaten konnten nicht gelöscht werden. Versuche es erneut.</string>
     <string name="channel_updates">Updates</string>
-    <string name="update_ready_title">NectarLink %1$s ist bereit</string>
+    <string name="update_ready_title">ZoopSync %1$s ist bereit</string>
     <string name="update_ready_text">Tippe, um das Update zu installieren.</string>
-    <string name="update_done_title">NectarLink wurde auf %1$s aktualisiert</string>
+    <string name="update_done_title">ZoopSync wurde auf %1$s aktualisiert</string>
     <string name="update_done_text">Tippe zum Öffnen. Deine PCs verbinden sich automatisch wieder.</string>
     <string name="update_auto_title">Updates automatisch installieren</string>
     <string name="update_auto_text">Neue Versionen von GitHub werden im Hintergrund installiert.</string>
 
     <string name="home_guide_title">Anleitung</string>
     <string name="home_whats_new_guide">Neu: Funktionsübersicht</string>
-    <string name="home_guide_card_body">Entdecke jede Funktion von NectarLink, prüfe aktive Berechtigungen oder tippe auf „Zeig es mir“, um direkt zur jeweiligen Einstellung zu springen.</string>
+    <string name="home_guide_card_body">Entdecke jede Funktion von ZoopSync, prüfe aktive Berechtigungen oder tippe auf „Zeig es mir“, um direkt zur jeweiligen Einstellung zu springen.</string>
     <string name="home_no_pc_paired">Noch kein PC gekoppelt</string>
-    <string name="home_no_pc_body">Öffne NectarLink auf deinem Windows- oder Linux-PC, um per QR-Code oder lokaler Erkennung zu koppeln, oder starte den Einrichtungsassistenten erneut.</string>
+    <string name="home_no_pc_body">Öffne ZoopSync auf deinem Windows- oder Linux-PC, um per QR-Code oder lokaler Erkennung zu koppeln, oder starte den Einrichtungsassistenten erneut.</string>
     <string name="home_background_clipboard_title">Hintergrund-Zwischenablage &amp; volle Steuerung</string>
     <string name="home_background_clipboard_body">Synchronisiere die Zwischenablage im Hintergrund und aktiviere die Touch-Steuerung über Kabelloses Debugging.</string>
     <string name="home_section_screen">Bildschirm, Kamera &amp; Eingabe</string>
@@ -1342,25 +1342,25 @@
 
     <!-- Pause for banking apps -->
     <string name="banking_title">Für Banking-Apps pausieren</string>
-    <string name="banking_text">Einige Banking-Apps starten nicht, solange Entwickleroptionen, Debugging oder ein Bedienungshilfendienst aktiv sind. Wähle sie hier aus: NectarLink schaltet diese Funktionen aus, solange die Apps geöffnet sind, und beim Verlassen wieder ein.</string>
+    <string name="banking_text">Einige Banking-Apps starten nicht, solange Entwickleroptionen, Debugging oder ein Bedienungshilfendienst aktiv sind. Wähle sie hier aus: ZoopSync schaltet diese Funktionen aus, solange die Apps geöffnet sind, und beim Verlassen wieder ein.</string>
     <plurals name="banking_chosen">
         <item quantity="one">%1$d App ausgewählt</item>
         <item quantity="other">%1$d Apps ausgewählt</item>
     </plurals>
-    <string name="banking_needs_elevated">Erfordert die einmalige Einrichtung des erweiterten Modus, damit NectarLink diese Einstellungen ändern kann.</string>
-    <string name="banking_needs_usage">Erlaube den Nutzungszugriff, damit NectarLink erkennt, wann eine Banking-App geöffnet ist.</string>
+    <string name="banking_needs_elevated">Erfordert die einmalige Einrichtung des erweiterten Modus, damit ZoopSync diese Einstellungen ändern kann.</string>
+    <string name="banking_needs_usage">Erlaube den Nutzungszugriff, damit ZoopSync erkennt, wann eine Banking-App geöffnet ist.</string>
     <string name="banking_paused_now">Aktuell für eine Banking-App pausiert.</string>
     <string name="banking_choose">Apps auswählen</string>
     <string name="banking_pick_title">Banking-Apps</string>
     <string name="banking_search">Apps suchen</string>
     <string name="banking_shortcut">Verknüpfung hinzufügen</string>
-    <string name="banking_shortcut_hint">Falls sich eine App weiterhin nicht öffnen lässt, starte sie über ihre Verknüpfung: NectarLink pausiert zuerst und öffnet dann die App.</string>
+    <string name="banking_shortcut_hint">Falls sich eine App weiterhin nicht öffnen lässt, starte sie über ihre Verknüpfung: ZoopSync pausiert zuerst und öffnet dann die App.</string>
     <string name="banking_channel">Für Banking-Apps pausieren</string>
     <string name="banking_paused_title">Für eine Banking-App pausiert</string>
-    <string name="banking_paused_text">Entwickleroptionen, Debugging und der Bedienungshilfendienst von NectarLink sind ausgeschaltet, bis du die App verlässt.</string>
+    <string name="banking_paused_text">Entwickleroptionen, Debugging und der Bedienungshilfendienst von ZoopSync sind ausgeschaltet, bis du die App verlässt.</string>
     <string name="banking_turn_back_on">Wieder einschalten</string>
     <string name="action_done">Fertig</string>
-    <!-- The phone's name as PCs see it when NectarLink runs in another Android profile: "Pixel 9a (Work)". -->
+    <!-- The phone's name as PCs see it when ZoopSync runs in another Android profile: "Pixel 9a (Work)". -->
     <string name="device_name_in_profile">%1$s (%2$s)</string>
     <string name="profile_work">Arbeit</string>
     <string name="profile_other">Zweites Profil</string>

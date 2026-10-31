@@ -6449,7 +6449,7 @@ async fn elevated_over_usb_is_refused_without_a_usb_connection() {
     let mut phone = device("phone", DeviceKind::Phone).await;
     pair_qr(&mut pc, &mut phone).await;
     let pc_id = pc.node.device_id();
-    let apk = "/data/app/~~a==/app.nectarlink-b==/base.apk".to_owned();
+    let apk = "/data/app/~~a==/app.zoopsync-b==/base.apk".to_owned();
     let token = "0123456789abcdef0123456789abcdef".to_owned();
 
     // This PC doesn't watch adb, so it can't start anything over USB.

@@ -46,10 +46,10 @@ use crate::{
     win::{autostart, http, toast},
 };
 
-const LATEST: &str = "https://api.github.com/repos/thtbee/nectarlink/releases/latest";
+const LATEST: &str = "https://api.github.com/repos/itsabhivardhan-cell/nectarlink/releases/latest";
 /// Where our release files are. An update is only downloaded from here, so a
 /// changed or spoofed release listing can't point the installer elsewhere.
-const RELEASE_DOWNLOADS: &str = "https://github.com/thtbee/nectarlink/releases/download/";
+const RELEASE_DOWNLOADS: &str = "https://github.com/itsabhivardhan-cell/nectarlink/releases/download/";
 const FIRST_CHECK: Duration = Duration::from_secs(30);
 const EVERY: Duration = Duration::from_secs(24 * 3600);
 const MAX_INSTALLER: u64 = 400 * 1024 * 1024;
@@ -162,9 +162,9 @@ pub fn check_now(told: bool) -> Option<String> {
             if new {
                 announce(&update);
             }
-            Some(tr!("Updater", "NectarLink %1 is available.", update.version))
+            Some(tr!("Updater", "ZoopSync %1 is available.", update.version))
         }
-        Ok(None) => told.then(|| tr!("Updater", "NectarLink is up to date.")),
+        Ok(None) => told.then(|| tr!("Updater", "ZoopSync is up to date.")),
         Err(e) => {
             tracing::info!(error = %e, "couldn't check for updates");
             told.then(|| tr!("Updater", "Couldn't check for updates. Check your internet connection."))
@@ -176,9 +176,9 @@ fn announce(update: &Update) {
     toast::show(toast::Toast {
         device: TOAST_GROUP.into(),
         key: update.version.clone(),
-        title: tr!("Updater", "NectarLink %1 is available", update.version),
+        title: tr!("Updater", "ZoopSync %1 is available", update.version),
         body: tr!("Updater", "Update now, or later from Settings."),
-        attribution: "NectarLink".into(),
+        attribution: "ZoopSync".into(),
         icon: None,
         image: None,
         actions: vec![(ACTION_UPDATE.into(), "Update".into())],
@@ -1093,7 +1093,7 @@ pub fn announce_update(previous: String, shown: bool) {
     tracing::info!(from = previous, to = current, "updated");
     after_start(
         shown,
-        tr!("Updater", "NectarLink is updated to %1", current),
+        tr!("Updater", "ZoopSync is updated to %1", current),
         tr!("Updater", "Your phone reconnects on its own."),
     );
 }
@@ -1105,7 +1105,7 @@ pub fn announce_update_failed(shown: bool) {
     after_start(
         shown,
         tr!("Updater", "The update didn't install"),
-        tr!("Updater", "NectarLink is still on the version you had. Try again from Settings."),
+        tr!("Updater", "ZoopSync is still on the version you had. Try again from Settings."),
     );
 }
 
@@ -1121,7 +1121,7 @@ fn after_start(shown: bool, title: String, body: String) {
             key: "updated".into(),
             title,
             body,
-            attribution: "NectarLink".into(),
+            attribution: "ZoopSync".into(),
             icon: None,
             image: None,
             actions: Vec::new(),
@@ -1168,38 +1168,38 @@ mod tests {
     fn release(tag: &str) -> Release {
         Release {
             tag_name: tag.into(),
-            html_url: "https://github.com/thtbee/nectarlink/releases/tag/v9".into(),
+            html_url: "https://github.com/itsabhivardhan-cell/nectarlink/releases/tag/v9".into(),
             draft: false,
             prerelease: false,
             assets: vec![
                 Asset {
                     name: "Nectarlink-9.0.0-x64-setup.exe".into(),
-                    browser_download_url: "https://github.com/thtbee/nectarlink/releases/download/v9/setup"
+                    browser_download_url: "https://github.com/itsabhivardhan-cell/nectarlink/releases/download/v9/setup"
                         .into(),
                 },
                 Asset {
                     name: "Nectarlink-9.0.0-arm64-setup.exe".into(),
                     browser_download_url:
-                        "https://github.com/thtbee/nectarlink/releases/download/v9/setup-arm64".into(),
+                        "https://github.com/itsabhivardhan-cell/nectarlink/releases/download/v9/setup-arm64".into(),
                 },
                 Asset {
                     name: "Nectarlink-9.0.0-x86_64.AppImage".into(),
                     browser_download_url:
-                        "https://github.com/thtbee/nectarlink/releases/download/v9/appimage-x64".into(),
+                        "https://github.com/itsabhivardhan-cell/nectarlink/releases/download/v9/appimage-x64".into(),
                 },
                 Asset {
                     name: "nectarlink_9.0.0_amd64.deb".into(),
                     browser_download_url:
-                        "https://github.com/thtbee/nectarlink/releases/download/v9/deb-amd64".into(),
+                        "https://github.com/itsabhivardhan-cell/nectarlink/releases/download/v9/deb-amd64".into(),
                 },
                 Asset {
                     name: "nectarlink-9.0.0-1.x86_64.rpm".into(),
                     browser_download_url:
-                        "https://github.com/thtbee/nectarlink/releases/download/v9/rpm-x86_64".into(),
+                        "https://github.com/itsabhivardhan-cell/nectarlink/releases/download/v9/rpm-x86_64".into(),
                 },
                 Asset {
                     name: "SHA256SUMS.txt".into(),
-                    browser_download_url: "https://github.com/thtbee/nectarlink/releases/download/v9/sums"
+                    browser_download_url: "https://github.com/itsabhivardhan-cell/nectarlink/releases/download/v9/sums"
                         .into(),
                 },
             ],
@@ -1261,14 +1261,14 @@ mod tests {
         let x64 = newer_release_for(release("v9.0.0"), "0.0.1", "-x64-setup.exe").unwrap();
         assert_eq!(
             (x64.version.as_str(), x64.installer_url.as_str()),
-            ("9.0.0", "https://github.com/thtbee/nectarlink/releases/download/v9/setup")
+            ("9.0.0", "https://github.com/itsabhivardhan-cell/nectarlink/releases/download/v9/setup")
         );
         let arm64 = newer_release_for(release("v9.0.0"), "0.0.1", "-arm64-setup.exe").unwrap();
         assert_eq!(
             (arm64.installer_name.as_str(), arm64.installer_url.as_str()),
             (
                 "Nectarlink-9.0.0-arm64-setup.exe",
-                "https://github.com/thtbee/nectarlink/releases/download/v9/setup-arm64"
+                "https://github.com/itsabhivardhan-cell/nectarlink/releases/download/v9/setup-arm64"
             )
         );
         assert!(newer_release(release("v0.0.1"), "0.0.1").is_none());
@@ -1298,7 +1298,7 @@ mod tests {
             (appimage.installer_name.as_str(), appimage.installer_url.as_str()),
             (
                 "Nectarlink-9.0.0-x86_64.AppImage",
-                "https://github.com/thtbee/nectarlink/releases/download/v9/appimage-x64"
+                "https://github.com/itsabhivardhan-cell/nectarlink/releases/download/v9/appimage-x64"
             )
         );
         let deb = newer_release_for(release("v9.0.0"), "0.0.1", "_amd64.deb").unwrap();
@@ -1306,7 +1306,7 @@ mod tests {
             (deb.installer_name.as_str(), deb.installer_url.as_str()),
             (
                 "nectarlink_9.0.0_amd64.deb",
-                "https://github.com/thtbee/nectarlink/releases/download/v9/deb-amd64"
+                "https://github.com/itsabhivardhan-cell/nectarlink/releases/download/v9/deb-amd64"
             )
         );
         #[cfg(target_os = "linux")]

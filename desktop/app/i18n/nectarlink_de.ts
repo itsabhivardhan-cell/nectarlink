@@ -50,28 +50,28 @@
     </message>
     <message>
         <location filename="rust_strings.h" line="16"/>
-        <source>NectarLink · %1</source>
-        <translation>NectarLink · %1</translation>
+        <source>ZoopSync · %1</source>
+        <translation>ZoopSync · %1</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="17"/>
-        <source>NectarLink · %1 devices connected</source>
-        <translation>NectarLink · %1 Geräte verbunden</translation>
+        <source>ZoopSync · %1 devices connected</source>
+        <translation>ZoopSync · %1 Geräte verbunden</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="18"/>
-        <source>NectarLink · 1 device connected</source>
-        <translation>NectarLink · 1 Gerät verbunden</translation>
+        <source>ZoopSync · 1 device connected</source>
+        <translation>ZoopSync · 1 Gerät verbunden</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="19"/>
-        <source>NectarLink · no devices paired</source>
-        <translation>NectarLink · keine Geräte gekoppelt</translation>
+        <source>ZoopSync · no devices paired</source>
+        <translation>ZoopSync · keine Geräte gekoppelt</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="20"/>
-        <source>NectarLink · not connected</source>
-        <translation>NectarLink · nicht verbunden</translation>
+        <source>ZoopSync · not connected</source>
+        <translation>ZoopSync · nicht verbunden</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="21"/>
@@ -80,8 +80,8 @@
     </message>
     <message>
         <location filename="rust_strings.h" line="22"/>
-        <source>Open NectarLink</source>
-        <translation>NectarLink öffnen</translation>
+        <source>Open ZoopSync</source>
+        <translation>ZoopSync öffnen</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="23"/>
@@ -90,8 +90,8 @@
     </message>
     <message>
         <location filename="rust_strings.h" line="24"/>
-        <source>Quit NectarLink</source>
-        <translation>NectarLink beenden</translation>
+        <source>Quit ZoopSync</source>
+        <translation>ZoopSync beenden</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="25"/>
@@ -183,8 +183,8 @@
     </message>
     <message>
         <location filename="../qml/pages/AppsPage.qml" line="92"/>
-        <source>Set up Wireless debugging in NectarLink on the phone to open its apps here.</source>
-        <translation>Richte Kabelloses Debugging in NectarLink auf dem Gerät ein, um seine Apps hier zu öffnen.</translation>
+        <source>Set up Wireless debugging in ZoopSync on the phone to open its apps here.</source>
+        <translation>Richte Kabelloses Debugging in ZoopSync auf dem Gerät ein, um seine Apps hier zu öffnen.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AppsPage.qml" line="145"/>
@@ -792,8 +792,8 @@
     </message>
     <message>
         <location filename="rust_strings.h" line="61"/>
-        <source>Update NectarLink on %1 to send it images.</source>
-        <translation>Aktualisiere NectarLink auf %1, um Bilder dorthin zu senden.</translation>
+        <source>Update ZoopSync on %1 to send it images.</source>
+        <translation>Aktualisiere ZoopSync auf %1, um Bilder dorthin zu senden.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="62"/>
@@ -1050,8 +1050,8 @@
     </message>
     <message>
         <location filename="rust_strings.h" line="103"/>
-        <source>Opened Recordings folder. Start a voice note in NectarLink on %1 to send it here.</source>
-        <translation>Ordner „Aufnahmen“ geöffnet. Starte eine Sprachnotiz in NectarLink auf %1, um sie hierher zu senden.</translation>
+        <source>Opened Recordings folder. Start a voice note in ZoopSync on %1 to send it here.</source>
+        <translation>Ordner „Aufnahmen“ geöffnet. Starte eine Sprachnotiz in ZoopSync auf %1, um sie hierher zu senden.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="104"/>
@@ -1210,8 +1210,8 @@
     </message>
     <message>
         <location filename="rust_strings.h" line="135"/>
-        <source>Stream %1&apos;s camera into the NectarLink virtual webcam</source>
-        <translation>Kamera von %1 an die virtuelle NectarLink-Webcam übertragen</translation>
+        <source>Stream %1&apos;s camera into the ZoopSync virtual webcam</source>
+        <translation>Kamera von %1 an die virtuelle ZoopSync-Webcam übertragen</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="136"/>
@@ -1871,8 +1871,8 @@
     <name>Doctor</name>
     <message>
         <location filename="rust_strings.h" line="185"/>
-        <source>%1 Open NectarLink on the phone and keep both on the same network. If the phone asks to run in the background, allow it.</source>
-        <translation>%1 Öffne NectarLink auf dem Gerät und halte beide Geräte im selben Netzwerk. Wenn das Gerät nach der Ausführung im Hintergrund fragt, erlaube sie.</translation>
+        <source>%1 Open ZoopSync on the phone and keep both on the same network. If the phone asks to run in the background, allow it.</source>
+        <translation>%1 Öffne ZoopSync auf dem Gerät und halte beide Geräte im selben Netzwerk. Wenn das Gerät nach der Ausführung im Hintergrund fragt, erlaube sie.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="186"/>
@@ -1921,8 +1921,8 @@
     </message>
     <message>
         <location filename="rust_strings.h" line="195"/>
-        <source>A firewall rule blocks incoming NectarLink connections. Allow it, and your phone can connect.</source>
-        <translation>Eine Firewall-Regel blockiert eingehende NectarLink-Verbindungen. Erlaube sie, damit sich dein Gerät verbinden kann.</translation>
+        <source>A firewall rule blocks incoming ZoopSync connections. Allow it, and your phone can connect.</source>
+        <translation>Eine Firewall-Regel blockiert eingehende ZoopSync-Verbindungen. Erlaube sie, damit sich dein Gerät verbinden kann.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="196"/>
@@ -1991,48 +1991,48 @@
     </message>
     <message>
         <location filename="rust_strings.h" line="209"/>
-        <source>NectarLink can&apos;t show its icon in the top bar</source>
-        <translation>NectarLink kann sein Symbol nicht in der oberen Leiste anzeigen</translation>
+        <source>ZoopSync can&apos;t show its icon in the top bar</source>
+        <translation>ZoopSync kann sein Symbol nicht in der oberen Leiste anzeigen</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="210"/>
-        <source>NectarLink is in the top bar</source>
-        <translation>NectarLink ist in der oberen Leiste</translation>
+        <source>ZoopSync is in the top bar</source>
+        <translation>ZoopSync ist in der oberen Leiste</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="211"/>
-        <source>NectarLink isn&apos;t allowed through Windows Firewall</source>
-        <translation>NectarLink ist in der Windows-Firewall nicht zugelassen</translation>
+        <source>ZoopSync isn&apos;t allowed through Windows Firewall</source>
+        <translation>ZoopSync ist in der Windows-Firewall nicht zugelassen</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="212"/>
-        <source>NectarLink isn&apos;t allowed through the firewall</source>
-        <translation>NectarLink ist in der Firewall nicht zugelassen</translation>
+        <source>ZoopSync isn&apos;t allowed through the firewall</source>
+        <translation>ZoopSync ist in der Firewall nicht zugelassen</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="213"/>
-        <source>On Huawei / Honor: open Settings → Battery → App launch, turn off Manage automatically for NectarLink, and keep Auto-launch, Secondary launch, and Run in background on.</source>
-        <translation>Auf Huawei / Honor: Öffne Einstellungen → Akku → App-Start, deaktiviere „Automatisch verwalten“ für NectarLink und lasse „Auto-Start“, „Sekundärer Start“ und „Im Hintergrund ausführen“ aktiviert.</translation>
+        <source>On Huawei / Honor: open Settings → Battery → App launch, turn off Manage automatically for ZoopSync, and keep Auto-launch, Secondary launch, and Run in background on.</source>
+        <translation>Auf Huawei / Honor: Öffne Einstellungen → Akku → App-Start, deaktiviere „Automatisch verwalten“ für ZoopSync und lasse „Auto-Start“, „Sekundärer Start“ und „Im Hintergrund ausführen“ aktiviert.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="214"/>
-        <source>On OnePlus / OxygenOS: open Settings → Apps → App management → NectarLink → Battery usage and turn on Allow background activity and Allow auto-launch.</source>
-        <translation>Auf OnePlus / OxygenOS: Öffne Einstellungen → Apps → App-Verwaltung → NectarLink → Akkunutzung und aktiviere „Hintergrundaktivität zulassen“ sowie „Automatischen Start zulassen“.</translation>
+        <source>On OnePlus / OxygenOS: open Settings → Apps → App management → ZoopSync → Battery usage and turn on Allow background activity and Allow auto-launch.</source>
+        <translation>Auf OnePlus / OxygenOS: Öffne Einstellungen → Apps → App-Verwaltung → ZoopSync → Akkunutzung und aktiviere „Hintergrundaktivität zulassen“ sowie „Automatischen Start zulassen“.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="215"/>
-        <source>On Oppo / Realme: open Settings → Apps → App management → NectarLink → Battery usage and turn on Allow background activity and Allow auto-launch.</source>
-        <translation>Auf Oppo / Realme: Öffne Einstellungen → Apps → App-Verwaltung → NectarLink → Akkunutzung und aktiviere „Hintergrundaktivität zulassen“ sowie „Automatischen Start zulassen“.</translation>
+        <source>On Oppo / Realme: open Settings → Apps → App management → ZoopSync → Battery usage and turn on Allow background activity and Allow auto-launch.</source>
+        <translation>Auf Oppo / Realme: Öffne Einstellungen → Apps → App-Verwaltung → ZoopSync → Akkunutzung und aktiviere „Hintergrundaktivität zulassen“ sowie „Automatischen Start zulassen“.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="216"/>
-        <source>On Pixel: open Settings → Apps → See all apps → NectarLink → App battery usage, tap Allow background usage, and choose Unrestricted.</source>
-        <translation>Auf Pixel: Öffne Einstellungen → Apps → Alle Apps ansehen → NectarLink → Akkunutzung der App, tippe auf „Hintergrundnutzung zulassen“ und wähle „Uneingeschränkt“.</translation>
+        <source>On Pixel: open Settings → Apps → See all apps → ZoopSync → App battery usage, tap Allow background usage, and choose Unrestricted.</source>
+        <translation>Auf Pixel: Öffne Einstellungen → Apps → Alle Apps ansehen → ZoopSync → Akkunutzung der App, tippe auf „Hintergrundnutzung zulassen“ und wähle „Uneingeschränkt“.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="217"/>
-        <source>On Samsung: open Settings → Apps → NectarLink → Battery and choose Unrestricted, then in Device care → Battery → Background usage limits make sure NectarLink is never put to sleep.</source>
-        <translation>Auf Samsung: Öffne Einstellungen → Apps → NectarLink → Akku und wähle „Nicht eingeschränkt“. Stelle dann unter Gerätewartung → Akku → Grenzen der Hintergrundnutzung sicher, dass NectarLink nie in den Standby versetzt wird.</translation>
+        <source>On Samsung: open Settings → Apps → ZoopSync → Battery and choose Unrestricted, then in Device care → Battery → Background usage limits make sure ZoopSync is never put to sleep.</source>
+        <translation>Auf Samsung: Öffne Einstellungen → Apps → ZoopSync → Akku und wähle „Nicht eingeschränkt“. Stelle dann unter Gerätewartung → Akku → Grenzen der Hintergrundnutzung sicher, dass ZoopSync nie in den Standby versetzt wird.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="218"/>
@@ -2041,13 +2041,13 @@
     </message>
     <message>
         <location filename="rust_strings.h" line="219"/>
-        <source>On Vivo / OriginOS / Funtouch: open Settings → Battery → Background power consumption management → NectarLink and choose Unrestricted, and allow Autostart.</source>
-        <translation>Auf Vivo / OriginOS / Funtouch: Öffne Einstellungen → Akku → Hintergrund-Stromverbrauchsverwaltung → NectarLink, wähle „Uneingeschränkt“ und erlaube „Autostart“.</translation>
+        <source>On Vivo / OriginOS / Funtouch: open Settings → Battery → Background power consumption management → ZoopSync and choose Unrestricted, and allow Autostart.</source>
+        <translation>Auf Vivo / OriginOS / Funtouch: Öffne Einstellungen → Akku → Hintergrund-Stromverbrauchsverwaltung → ZoopSync, wähle „Uneingeschränkt“ und erlaube „Autostart“.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="220"/>
-        <source>On Xiaomi / HyperOS / MIUI: open Settings → Apps → Manage apps → NectarLink, turn on Autostart, and set Battery saver to No restrictions.</source>
-        <translation>Auf Xiaomi / HyperOS / MIUI: Öffne Einstellungen → Apps → Apps verwalten → NectarLink, aktiviere „Autostart“ und stelle das Energiesparen auf „Keine Beschränkungen“.</translation>
+        <source>On Xiaomi / HyperOS / MIUI: open Settings → Apps → Manage apps → ZoopSync, turn on Autostart, and set Battery saver to No restrictions.</source>
+        <translation>Auf Xiaomi / HyperOS / MIUI: Öffne Einstellungen → Apps → Apps verwalten → ZoopSync, aktiviere „Autostart“ und stelle das Energiesparen auf „Keine Beschränkungen“.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="221"/>
@@ -2101,8 +2101,8 @@
     </message>
     <message>
         <location filename="rust_strings.h" line="231"/>
-        <source>The firewall blocks NectarLink</source>
-        <translation>Die Firewall blockiert NectarLink</translation>
+        <source>The firewall blocks ZoopSync</source>
+        <translation>Die Firewall blockiert ZoopSync</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="232"/>
@@ -2151,8 +2151,8 @@
     </message>
     <message>
         <location filename="rust_strings.h" line="241"/>
-        <source>Windows Firewall blocks NectarLink</source>
-        <translation>Die Windows-Firewall blockiert NectarLink</translation>
+        <source>Windows Firewall blocks ZoopSync</source>
+        <translation>Die Windows-Firewall blockiert ZoopSync</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="242"/>
@@ -2423,8 +2423,8 @@
     </message>
     <message>
         <location filename="../qml/pages/FeaturesGuidePage.qml" line="572"/>
-        <source>Every feature in NectarLink, what it needs, and where to find it.</source>
-        <translation>Jede Funktion in NectarLink, was sie benötigt und wo du sie findest.</translation>
+        <source>Every feature in ZoopSync, what it needs, and where to find it.</source>
+        <translation>Jede Funktion in ZoopSync, was sie benötigt und wo du sie findest.</translation>
     </message>
     <message>
         <location filename="../qml/pages/FeaturesGuidePage.qml" line="611"/>
@@ -2509,15 +2509,15 @@
     <name>Guide</name>
     <message>
         <location filename="rust_strings.h" line="259"/>
-        <source>1. Install NectarLink on your PC (Windows 11 or Linux) and your Android phone (Android 8.0 or newer).
+        <source>1. Install ZoopSync on your PC (Windows 11 or Linux) and your Android phone (Android 8.0 or newer).
 2. Connect both devices to the same Wi-Fi network, or plug your phone into your PC with a USB cable.
 3. Open the Pair step in the setup walkthrough, or click + (Pair a new device) at the bottom of the left rail.
-4. Scan the QR code from the NectarLink Android app, or select your phone from the nearby devices list and confirm that the 6-digit code matches on both screens.
+4. Scan the QR code from the ZoopSync Android app, or select your phone from the nearby devices list and confirm that the 6-digit code matches on both screens.
 5. Choose which features to share for that phone and grant only the Android permissions you want to use.</source>
-        <translation>1. Installiere NectarLink auf deinem PC (Windows 11 oder Linux) und deinem Android-Gerät (Android 8.0 oder neuer).
+        <translation>1. Installiere ZoopSync auf deinem PC (Windows 11 oder Linux) und deinem Android-Gerät (Android 8.0 oder neuer).
 2. Verbinde beide Geräte mit demselben WLAN oder schließe dein Gerät per USB-Kabel an deinen PC an.
 3. Öffne den Kopplungsschritt im Einrichtungsassistenten oder klicke unten in der linken Seitenleiste auf „+“ (Neues Gerät koppeln).
-4. Scanne den QR-Code in der NectarLink-Android-App oder wähle dein Gerät aus der Liste der Geräte in der Nähe aus und bestätige, dass der 6-stellige Code auf beiden Bildschirmen übereinstimmt.
+4. Scanne den QR-Code in der ZoopSync-Android-App oder wähle dein Gerät aus der Liste der Geräte in der Nähe aus und bestätige, dass der 6-stellige Code auf beiden Bildschirmen übereinstimmt.
 5. Wähle aus, welche Funktionen für dieses Gerät freigegeben werden sollen, und erteile nur die Android-Berechtigungen, die du nutzen möchtest.</translation>
     </message>
     <message>
@@ -2590,15 +2590,15 @@
         <source>If your phone and PC do not see each other:
 
 1. Open Connection Doctor from Settings › Connection &amp; About or the Command Palette.
-2. Check that your Wi-Fi network profile in Windows is set to Private rather than Public, or click Fix in Connection Doctor to allow NectarLink through Windows Firewall.
+2. Check that your Wi-Fi network profile in Windows is set to Private rather than Public, or click Fix in Connection Doctor to allow ZoopSync through Windows Firewall.
 3. Verify that both devices are on the same subnet and that guest Wi-Fi client isolation is turned off on your router.
-4. You can also connect over a USB cable with USB debugging enabled; NectarLink automatically sets up a local tunnel.</source>
+4. You can also connect over a USB cable with USB debugging enabled; ZoopSync automatically sets up a local tunnel.</source>
         <translation>Wenn dein Gerät und dein PC einander nicht finden:
 
 1. Öffne den Verbindungs-Doktor über Einstellungen › Verbindung &amp; Info oder über die Befehlspalette.
-2. Prüfe, ob dein WLAN-Netzwerkprofil in Windows auf „Privat“ statt auf „Öffentlich“ eingestellt ist, oder klicke im Verbindungs-Doktor auf „Zulassen“, um NectarLink in der Windows-Firewall freizugeben.
+2. Prüfe, ob dein WLAN-Netzwerkprofil in Windows auf „Privat“ statt auf „Öffentlich“ eingestellt ist, oder klicke im Verbindungs-Doktor auf „Zulassen“, um ZoopSync in der Windows-Firewall freizugeben.
 3. Stelle sicher, dass sich beide Geräte im selben Subnetz befinden und dass die Gast-WLAN-/Client-Isolation auf deinem Router deaktiviert ist.
-4. Du kannst die Verbindung auch über ein USB-Kabel bei aktiviertem USB-Debugging herstellen; NectarLink richtet dann automatisch einen lokalen Tunnel ein.</translation>
+4. Du kannst die Verbindung auch über ein USB-Kabel bei aktiviertem USB-Debugging herstellen; ZoopSync richtet dann automatisch einen lokalen Tunnel ein.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="274"/>
@@ -2641,7 +2641,7 @@ Sensible Funktionen wie „PC-Ordner freigeben“, „Ferneingabe“ und die umg
     </message>
     <message>
         <location filename="rust_strings.h" line="279"/>
-        <source>Most NectarLink features work in Standard mode with regular Android permissions. Two optional modes unlock deeper system integration:
+        <source>Most ZoopSync features work in Standard mode with regular Android permissions. Two optional modes unlock deeper system integration:
 
 Elevated mode (Wireless debugging or root)
 - Captures the phone screen without showing the Android cast confirmation prompt every time.
@@ -2650,8 +2650,8 @@ Elevated mode (Wireless debugging or root)
 
 Assist mode (Android Accessibility Service)
 - Injects mouse clicks, scrolling, and touch gestures when you control your phone from your PC.
-- NectarLink never reads screen text or logs keystrokes through the Accessibility service.</source>
-        <translation>Die meisten Funktionen von NectarLink arbeiten im Standardmodus mit normalen Android-Berechtigungen. Zwei optionale Modi schalten eine tiefere Systemintegration frei:
+- ZoopSync never reads screen text or logs keystrokes through the Accessibility service.</source>
+        <translation>Die meisten Funktionen von ZoopSync arbeiten im Standardmodus mit normalen Android-Berechtigungen. Zwei optionale Modi schalten eine tiefere Systemintegration frei:
 
 Erweiterter Modus / Elevated (Kabelloses Debugging oder Root)
 - Überträgt den Gerätebildschirm, ohne jedes Mal den Android-Bestätigungsdialog anzuzeigen.
@@ -2660,7 +2660,7 @@ Erweiterter Modus / Elevated (Kabelloses Debugging oder Root)
 
 Assistenz-Modus (Android-Bedienungshilfen)
 - Führt Mausklicks, Scrollbewegungen und Touch-Gesten aus, wenn du dein Gerät vom PC aus steuerst.
-- NectarLink liest über die Bedienungshilfen niemals Bildschirmtexte aus und zeichnet keine Tastenanschläge auf.</translation>
+- ZoopSync liest über die Bedienungshilfen niemals Bildschirmtexte aus und zeichnet keine Tastenanschläge auf.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="280"/>
@@ -2669,7 +2669,7 @@ Assistenz-Modus (Android-Bedienungshilfen)
     </message>
     <message>
         <location filename="rust_strings.h" line="281"/>
-        <source>NectarLink links your Android phone and your PC directly on your local network or over a USB cable.
+        <source>ZoopSync links your Android phone and your PC directly on your local network or over a USB cable.
 
 How it works
 - Devices discover each other over local Wi-Fi (mDNS) or USB (ADB reverse tunnel) and connect over QUIC (TLS 1.3).
@@ -2680,7 +2680,7 @@ Capability tiers on Android
 - Standard mode: Works right after installation with standard Android permissions.
 - Elevated mode (optional): Uses Wireless debugging (set up once in the phone app) or root for phone apps in their own windows, mirroring without the screen capture prompt, and more phone controls.
 - Assist mode (optional): Uses the Android Accessibility service only when you enable Remote input so your PC mouse and keyboard can control the phone.</source>
-        <translation>NectarLink verbindet dein Android-Gerät und deinen PC direkt über dein lokales Netzwerk oder ein USB-Kabel.
+        <translation>ZoopSync verbindet dein Android-Gerät und deinen PC direkt über dein lokales Netzwerk oder ein USB-Kabel.
 
 So funktioniert es
 - Geräte erkennen einander über das lokale WLAN (mDNS) oder USB (ADB-Reverse-Tunnel) und verbinden sich über QUIC (TLS 1.3).
@@ -2694,14 +2694,14 @@ Funktionsstufen unter Android
     </message>
     <message>
         <location filename="rust_strings.h" line="282"/>
-        <source>NectarLink never asks for every permission up front. Each feature works independently:
+        <source>ZoopSync never asks for every permission up front. Each feature works independently:
 
 - Notification Access: Required only if you want phone notifications, inline replies, and notification-backed chat threads on your PC.
 - SMS and Contacts: Required only if you want to read and send SMS/MMS messages or look up contact names on your PC.
 - Phone and Call Log: Required only if you want incoming call alerts, call history, or dialing from your PC.
 - Media and Photos: Required only if you want the Photos gallery, Shelf latest photo, or folder sync.
 - Camera and Microphone: Required only while streaming your phone as a webcam, taking a Continuity Camera shot, or recording a voice note.</source>
-        <translation>NectarLink verlangt niemals alle Berechtigungen im Voraus. Jede Funktion arbeitet unabhängig:
+        <translation>ZoopSync verlangt niemals alle Berechtigungen im Voraus. Jede Funktion arbeitet unabhängig:
 
 - Benachrichtigungszugriff: Nur erforderlich, wenn du Gerätebenachrichtigungen, direkte Antworten und benachrichtigungsbasierte Chats auf deinem PC nutzen möchtest.
 - SMS und Kontakte: Nur erforderlich, wenn du SMS-/MMS-Nachrichten lesen und senden oder Kontaktnamen auf deinem PC nachschlagen möchtest.
@@ -2711,8 +2711,8 @@ Funktionsstufen unter Android
     </message>
     <message>
         <location filename="rust_strings.h" line="283"/>
-        <source>NectarLink overview</source>
-        <translation>NectarLink-Übersicht</translation>
+        <source>ZoopSync overview</source>
+        <translation>ZoopSync-Übersicht</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="284"/>
@@ -2884,7 +2884,7 @@ Voraussetzungen
     <message>
         <location filename="rust_strings.h" line="305"/>
         <source>What it does
-Exposes an opt-in localhost HTTP/JSON and Server-Sent Events API on 127.0.0.1 (default port 53320) protected by a bearer token so scripts, CLI tools, and Stream Deck plugins can trigger NectarLink actions.
+Exposes an opt-in localhost HTTP/JSON and Server-Sent Events API on 127.0.0.1 (default port 53320) protected by a bearer token so scripts, CLI tools, and Stream Deck plugins can trigger ZoopSync actions.
 
 Where to find it
 - Settings › Connection &amp; About › Local automation API.
@@ -2892,7 +2892,7 @@ Where to find it
 What it needs
 - Turn on Local automation API in Settings › Connection &amp; About and read the bearer token from api-token.json.</source>
         <translation>Funktion
-Stellt auf Wunsch eine lokale HTTP/JSON- und Server-Sent-Events-API unter 127.0.0.1 (Standardport 53320) bereit, die durch ein Bearer-Token geschützt ist, damit Skripte, CLI-Tools und Stream-Deck-Plugins NectarLink-Aktionen auslösen können.
+Stellt auf Wunsch eine lokale HTTP/JSON- und Server-Sent-Events-API unter 127.0.0.1 (Standardport 53320) bereit, die durch ein Bearer-Token geschützt ist, damit Skripte, CLI-Tools und Stream-Deck-Plugins ZoopSync-Aktionen auslösen können.
 
 Wo zu finden
 - Einstellungen › Verbindung &amp; Info › Lokale Automatisierungs-API.
@@ -2910,7 +2910,7 @@ Where to find it
 - Command Palette › Type on phone with PC keyboard.
 
 What it needs
-- Assist mode (Accessibility service), the NectarLink input method, or Elevated mode on your phone.</source>
+- Assist mode (Accessibility service), the ZoopSync input method, or Elevated mode on your phone.</source>
         <translation>Funktion
 Leitet Tastenanschläge und eingefügten Text von deiner PC-Tastatur direkt an dein Gerät weiter, ohne dass der Gerätebildschirm gespiegelt werden muss.
 
@@ -2919,7 +2919,7 @@ Wo zu finden
 - Befehlspalette › Mit der PC-Tastatur auf dem Gerät tippen.
 
 Voraussetzungen
-- Assistenz-Modus (Bedienungshilfen), die NectarLink-Eingabemethode oder den erweiterten Modus auf deinem Gerät.</translation>
+- Assistenz-Modus (Bedienungshilfen), die ZoopSync-Eingabemethode oder den erweiterten Modus auf deinem Gerät.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="307"/>
@@ -3039,7 +3039,7 @@ Where to find it
 - Settings › General › Copy one-time codes.
 
 What it needs
-- Notification Access permission enabled for NectarLink on your Android phone.
+- Notification Access permission enabled for ZoopSync on your Android phone.
 - The per-device Notifications toggle enabled on your PC.</source>
         <translation>Funktion
 Spiegelt deine Gerätebenachrichtigungen auf die Startseite und als Windows-Benachrichtigungen. Du kannst direkt auf Nachrichten antworten, Aktionsschaltflächen anklicken, einzelne Benachrichtigungen oder Gruppen verwerfen und das Verwerfen rückgängig machen.
@@ -3050,7 +3050,7 @@ Wo zu finden
 - Einstellungen › Allgemein › Einmalcodes kopieren.
 
 Voraussetzungen
-- Aktivierter Benachrichtigungszugriff für NectarLink auf deinem Android-Gerät.
+- Aktivierter Benachrichtigungszugriff für ZoopSync auf deinem Android-Gerät.
 - Aktivierter Schalter „Benachrichtigungen“ für dieses Gerät auf deinem PC.</translation>
     </message>
     <message>
@@ -3059,7 +3059,7 @@ Voraussetzungen
 Opens a keyboard-first search bar over actions, contacts, message threads, mirrorable apps, phone quick toggles, clipboard history, and navigation pages.
 
 Where to find it
-- Global hotkey Ctrl+Alt+Space (or Ctrl+K inside the NectarLink window).
+- Global hotkey Ctrl+Alt+Space (or Ctrl+K inside the ZoopSync window).
 - Commands in the top bar.
 
 What it needs
@@ -3068,7 +3068,7 @@ What it needs
 Öffnet eine schnelle Tastatur-Suchleiste für Aktionen, Kontakte, Nachrichtenverläufe, spiegelbare Apps, Geräte-Schnelleinstellungen, den Zwischenablageverlauf und Navigationsseiten.
 
 Wo zu finden
-- Globales Tastenkürzel Strg+Alt+Leertaste (oder Strg+K im NectarLink-Fenster).
+- Globales Tastenkürzel Strg+Alt+Leertaste (oder Strg+K im ZoopSync-Fenster).
 - „Befehle“ in der oberen Leiste.
 
 Voraussetzungen
@@ -3161,7 +3161,7 @@ Voraussetzungen
     <message>
         <location filename="rust_strings.h" line="318"/>
         <source>What it does
-Sends files, folders, links, and text between your phone and PC at local network speed. If your phone is offline when you send, NectarLink places the item in the Waiting to send queue and delivers it automatically as soon as your phone reconnects.
+Sends files, folders, links, and text between your phone and PC at local network speed. If your phone is offline when you send, ZoopSync places the item in the Waiting to send queue and delivers it automatically as soon as your phone reconnects.
 
 Where to find it
 - Home › Send files button, drag-and-drop anywhere on the window, Waiting to send card, and Transfers list.
@@ -3170,7 +3170,7 @@ Where to find it
 What it needs
 - Paired phone and the per-device Files toggle enabled.</source>
         <translation>Funktion
-Sendet Dateien, Ordner, Links und Text in lokaler Netzwerkgeschwindigkeit zwischen deinem Gerät und deinem PC. Wenn dein Gerät beim Senden offline ist, legt NectarLink das Element in die Warteschlange „Wartet auf Senden“ und überträgt es automatisch, sobald sich dein Gerät wieder verbindet.
+Sendet Dateien, Ordner, Links und Text in lokaler Netzwerkgeschwindigkeit zwischen deinem Gerät und deinem PC. Wenn dein Gerät beim Senden offline ist, legt ZoopSync das Element in die Warteschlange „Wartet auf Senden“ und überträgt es automatisch, sobald sich dein Gerät wieder verbindet.
 
 Wo zu finden
 - Startseite › Schaltfläche „Dateien senden“, per Drag &amp; Drop überall im Fenster, Karte „Wartet auf Senden“ und Liste „Übertragungen“.
@@ -3209,7 +3209,7 @@ Where to find it
 
 What it needs
 - Automatic PC-to-phone clipboard send works whenever your phone is connected.
-- Background phone-to-PC clipboard sync on Android 10+ uses notifications, the NectarLink quick tile, or Elevated mode.</source>
+- Background phone-to-PC clipboard sync on Android 10+ uses notifications, the ZoopSync quick tile, or Elevated mode.</source>
         <translation>Funktion
 Teilt kopierten Text, formatierten HTML-/RTF-Text, Bilder und kleinere Dateiauswahlen zwischen deinem PC und deinem Gerät. Führt einen verschlüsselten lokalen Verlauf von bis zu 50 Einträgen mit Anheftfunktion und intelligenten Aktionen für Links, Telefonnummern, Adressen und Sendungsnummern.
 
@@ -3219,7 +3219,7 @@ Wo zu finden
 
 Voraussetzungen
 - Das automatische Senden der Zwischenablage vom PC zum Gerät funktioniert immer, sobald dein Gerät verbunden ist.
-- Die Hintergrundsynchronisierung vom Gerät zum PC nutzt ab Android 10 Benachrichtigungen, die NectarLink-Schnelleinstellungskachel oder den erweiterten Modus.</translation>
+- Die Hintergrundsynchronisierung vom Gerät zum PC nutzt ab Android 10 Benachrichtigungen, die ZoopSync-Schnelleinstellungskachel oder den erweiterten Modus.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="321"/>
@@ -3271,7 +3271,7 @@ Voraussetzungen
 Streams your PC&apos;s screen to your phone so you can view your desktop from across the room and use your phone as a trackpad or laser pointer.
 
 Where to find it
-- Started from the NectarLink app on your phone.
+- Started from the ZoopSync app on your phone.
 - Settings › Devices › Share PC screen to phone.
 
 What it needs
@@ -3280,7 +3280,7 @@ What it needs
 Überträgt den Bildschirm deines PCs auf dein Gerät, sodass du deinen Desktop aus der Ferne sehen und dein Gerät als Trackpad oder Laserpointer nutzen kannst.
 
 Wo zu finden
-- Wird in der NectarLink-App auf deinem Gerät gestartet.
+- Wird in der ZoopSync-App auf deinem Gerät gestartet.
 - Einstellungen › Geräte › PC-Bildschirm für Gerät freigeben.
 
 Voraussetzungen
@@ -3289,7 +3289,7 @@ Voraussetzungen
     <message>
         <location filename="rust_strings.h" line="324"/>
         <source>What it does
-Streams your phone camera into the NectarLink Virtual Camera on Windows so Zoom, Teams, Meet, Discord, and OBS can use your phone&apos;s rear or front camera at up to 4K.
+Streams your phone camera into the ZoopSync Virtual Camera on Windows so Zoom, Teams, Meet, Discord, and OBS can use your phone&apos;s rear or front camera at up to 4K.
 
 Where to find it
 - Home › Phone as webcam.
@@ -3299,7 +3299,7 @@ What it needs
 - Camera permission on your phone.
 - For other apps to see it: Virtual camera add-on in Settings › Camera &amp; Audio.</source>
         <translation>Funktion
-Überträgt das Kamerabild deines Geräts an die virtuelle NectarLink-Kamera unter Windows, sodass Zoom, Teams, Meet, Discord und OBS die Rück- oder Frontkamera deines Geräts in bis zu 4K nutzen können.
+Überträgt das Kamerabild deines Geräts an die virtuelle ZoopSync-Kamera unter Windows, sodass Zoom, Teams, Meet, Discord und OBS die Rück- oder Frontkamera deines Geräts in bis zu 4K nutzen können.
 
 Wo zu finden
 - Startseite › Gerät als Webcam.
@@ -4381,8 +4381,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="../qml/IslandWindow.qml" line="258"/>
-        <source>Click to view in NectarLink</source>
-        <translation>Klicken, um in NectarLink anzuzeigen</translation>
+        <source>Click to view in ZoopSync</source>
+        <translation>Klicken, um in ZoopSync anzuzeigen</translation>
     </message>
     <message>
         <location filename="../qml/IslandWindow.qml" line="261"/>
@@ -4459,8 +4459,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="rust_strings.h" line="342"/>
-        <source>Update NectarLink on %1.</source>
-        <translation>Aktualisiere NectarLink auf %1.</translation>
+        <source>Update ZoopSync on %1.</source>
+        <translation>Aktualisiere ZoopSync auf %1.</translation>
     </message>
 </context>
 <context>
@@ -4522,13 +4522,13 @@ Voraussetzungen
     </message>
     <message>
         <location filename="../qml/components/LockChip.qml" line="46"/>
-        <source>On your phone, open NectarLink › Settings › Control from your PC and turn on the Accessibility service.</source>
-        <translation>Öffne auf deinem Gerät NectarLink › Einstellungen › Vom PC aus steuern und aktiviere die Bedienungshilfe.</translation>
+        <source>On your phone, open ZoopSync › Settings › Control from your PC and turn on the Accessibility service.</source>
+        <translation>Öffne auf deinem Gerät ZoopSync › Einstellungen › Vom PC aus steuern und aktiviere die Bedienungshilfe.</translation>
     </message>
     <message>
         <location filename="../qml/components/LockChip.qml" line="48"/>
-        <source>Needs Elevated: set up Wireless debugging in NectarLink › Settings › Control from your PC, or connect the phone over USB with USB debugging allowed.</source>
-        <translation>Erfordert den erweiterten Modus: Richte Kabelloses Debugging in NectarLink › Einstellungen › Steuerung vom PC ein oder verbinde das Telefon per USB mit aktiviertem USB-Debugging.</translation>
+        <source>Needs Elevated: set up Wireless debugging in ZoopSync › Settings › Control from your PC, or connect the phone over USB with USB debugging allowed.</source>
+        <translation>Erfordert den erweiterten Modus: Richte Kabelloses Debugging in ZoopSync › Einstellungen › Steuerung vom PC ein oder verbinde das Telefon per USB mit aktiviertem USB-Debugging.</translation>
     </message>
     <message>
         <source>Needs Elevated: set up Wireless debugging or connect over USB.</source>
@@ -4536,33 +4536,33 @@ Voraussetzungen
     </message>
     <message>
         <location filename="../qml/components/LockChip.qml" line="50"/>
-        <source>On your phone, set NectarLink as the default SMS/Caller ID app when prompted.</source>
-        <translation>Lege NectarLink auf deinem Gerät als Standard-App für SMS/Anrufer-ID fest, wenn du dazu aufgefordert wirst.</translation>
+        <source>On your phone, set ZoopSync as the default SMS/Caller ID app when prompted.</source>
+        <translation>Lege ZoopSync auf deinem Gerät als Standard-App für SMS/Anrufer-ID fest, wenn du dazu aufgefordert wirst.</translation>
     </message>
     <message>
         <location filename="../qml/components/LockChip.qml" line="53"/>
-        <source>On your phone, open NectarLink and allow Notification access.</source>
-        <translation>Öffne NectarLink auf deinem Gerät und erlaube den Benachrichtigungszugriff.</translation>
+        <source>On your phone, open ZoopSync and allow Notification access.</source>
+        <translation>Öffne ZoopSync auf deinem Gerät und erlaube den Benachrichtigungszugriff.</translation>
     </message>
     <message>
         <location filename="../qml/components/LockChip.qml" line="55"/>
-        <source>On your phone, open NectarLink and allow Do Not Disturb access.</source>
-        <translation>Öffne NectarLink auf deinem Gerät und erlaube den Zugriff auf „Nicht stören“.</translation>
+        <source>On your phone, open ZoopSync and allow Do Not Disturb access.</source>
+        <translation>Öffne ZoopSync auf deinem Gerät und erlaube den Zugriff auf „Nicht stören“.</translation>
     </message>
     <message>
         <location filename="../qml/components/LockChip.qml" line="57"/>
-        <source>On your phone, open NectarLink and allow Modify system settings.</source>
-        <translation>Öffne NectarLink auf deinem Gerät und erlaube das Ändern von Systemeinstellungen.</translation>
+        <source>On your phone, open ZoopSync and allow Modify system settings.</source>
+        <translation>Öffne ZoopSync auf deinem Gerät und erlaube das Ändern von Systemeinstellungen.</translation>
     </message>
     <message>
         <location filename="../qml/components/LockChip.qml" line="58"/>
-        <source>Open NectarLink on your phone and grant this permission in Settings.</source>
-        <translation>Öffne NectarLink auf deinem Gerät und erteile diese Berechtigung in den Einstellungen.</translation>
+        <source>Open ZoopSync on your phone and grant this permission in Settings.</source>
+        <translation>Öffne ZoopSync auf deinem Gerät und erteile diese Berechtigung in den Einstellungen.</translation>
     </message>
     <message>
         <location filename="../qml/components/LockChip.qml" line="60"/>
-        <source>Open Settings › Camera &amp; Audio to set up the NectarLink virtual camera add-on.</source>
-        <translation>Öffne Einstellungen › Kamera &amp; Audio, um das Add-on für die virtuelle NectarLink-Kamera einzurichten.</translation>
+        <source>Open Settings › Camera &amp; Audio to set up the ZoopSync virtual camera add-on.</source>
+        <translation>Öffne Einstellungen › Kamera &amp; Audio, um das Add-on für die virtuelle ZoopSync-Kamera einzurichten.</translation>
     </message>
     <message>
         <location filename="../qml/components/LockChip.qml" line="62"/>
@@ -5177,8 +5177,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="rust_strings.h" line="363"/>
-        <source>Set up Wireless debugging in NectarLink on the phone to open its apps here.</source>
-        <translation>Richte Kabelloses Debugging in NectarLink auf dem Gerät ein, um dessen Apps hier zu öffnen.</translation>
+        <source>Set up Wireless debugging in ZoopSync on the phone to open its apps here.</source>
+        <translation>Richte Kabelloses Debugging in ZoopSync auf dem Gerät ein, um dessen Apps hier zu öffnen.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="364"/>
@@ -5187,8 +5187,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="rust_strings.h" line="365"/>
-        <source>The app didn&apos;t open on the phone. Try again, or open NectarLink on the phone to check Wireless debugging.</source>
-        <translation>Die App wurde auf dem Gerät nicht geöffnet. Versuche es erneut oder öffne NectarLink auf dem Gerät, um das Kabellose Debugging zu prüfen.</translation>
+        <source>The app didn&apos;t open on the phone. Try again, or open ZoopSync on the phone to check Wireless debugging.</source>
+        <translation>Die App wurde auf dem Gerät nicht geöffnet. Versuche es erneut oder öffne ZoopSync auf dem Gerät, um das Kabellose Debugging zu prüfen.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="366"/>
@@ -5212,8 +5212,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="rust_strings.h" line="370"/>
-        <source>This phone&apos;s app doesn&apos;t share its screen yet. Update NectarLink on the phone.</source>
-        <translation>Die App auf diesem Gerät unterstützt noch keine Bildschirmfreigabe. Aktualisiere NectarLink auf dem Gerät.</translation>
+        <source>This phone&apos;s app doesn&apos;t share its screen yet. Update ZoopSync on the phone.</source>
+        <translation>Die App auf diesem Gerät unterstützt noch keine Bildschirmfreigabe. Aktualisiere ZoopSync auf dem Gerät.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="371"/>
@@ -5230,13 +5230,13 @@ Voraussetzungen
     </message>
     <message>
         <location filename="../qml/MirrorWindow.qml" line="25"/>
-        <source>%1 · NectarLink</source>
-        <translation>%1 · NectarLink</translation>
+        <source>%1 · ZoopSync</source>
+        <translation>%1 · ZoopSync</translation>
     </message>
     <message>
         <location filename="../qml/MirrorWindow.qml" line="25"/>
-        <source>Phone screen · NectarLink</source>
-        <translation>Gerätebildschirm · NectarLink</translation>
+        <source>Phone screen · ZoopSync</source>
+        <translation>Gerätebildschirm · ZoopSync</translation>
     </message>
     <message>
         <location filename="../qml/MirrorWindow.qml" line="325"/>
@@ -5301,8 +5301,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="../qml/MirrorWindow.qml" line="480"/>
-        <source>To control the phone, turn on Control from your PC in NectarLink&apos;s settings on the phone.</source>
-        <translation>Um das Gerät zu steuern, aktiviere „Vom PC aus steuern“ in den NectarLink-Einstellungen auf dem Gerät.</translation>
+        <source>To control the phone, turn on Control from your PC in ZoopSync&apos;s settings on the phone.</source>
+        <translation>Um das Gerät zu steuern, aktiviere „Vom PC aus steuern“ in den ZoopSync-Einstellungen auf dem Gerät.</translation>
     </message>
     <message>
         <location filename="../qml/MirrorWindow.qml" line="489"/>
@@ -5670,8 +5670,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="../qml/pages/PairingPanel.qml" line="99"/>
-        <source>Install NectarLink</source>
-        <translation>NectarLink installieren</translation>
+        <source>Install ZoopSync</source>
+        <translation>ZoopSync installieren</translation>
     </message>
     <message>
         <location filename="../qml/pages/PairingPanel.qml" line="99"/>
@@ -5698,8 +5698,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="../qml/pages/PairingPanel.qml" line="172"/>
-        <source>Open NectarLink on your phone</source>
-        <translation>Öffne NectarLink auf deinem Gerät</translation>
+        <source>Open ZoopSync on your phone</source>
+        <translation>Öffne ZoopSync auf deinem Gerät</translation>
     </message>
     <message>
         <location filename="../qml/pages/PairingPanel.qml" line="172"/>
@@ -5708,8 +5708,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="../qml/pages/PairingPanel.qml" line="220"/>
-        <source>On your phone, open NectarLink and choose “Pair nearby”. It shows up here.</source>
-        <translation>Öffne NectarLink auf deinem Gerät und wähle „In der Nähe koppeln“. Es erscheint dann hier.</translation>
+        <source>On your phone, open ZoopSync and choose “Pair nearby”. It shows up here.</source>
+        <translation>Öffne ZoopSync auf deinem Gerät und wähle „In der Nähe koppeln“. Es erscheint dann hier.</translation>
     </message>
     <message>
         <location filename="../qml/pages/PairingPanel.qml" line="250"/>
@@ -5819,8 +5819,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="rust_strings.h" line="388"/>
-        <source>Update NectarLink on %1 to use its microphone.</source>
-        <translation>Aktualisiere NectarLink auf %1, um das Mikrofon zu verwenden.</translation>
+        <source>Update ZoopSync on %1 to use its microphone.</source>
+        <translation>Aktualisiere ZoopSync auf %1, um das Mikrofon zu verwenden.</translation>
     </message>
 </context>
 <context>
@@ -5872,8 +5872,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="rust_strings.h" line="398"/>
-        <source>Update NectarLink on %1 to back up its photos.</source>
-        <translation>Aktualisiere NectarLink auf %1, um dessen Fotos zu sichern.</translation>
+        <source>Update ZoopSync on %1 to back up its photos.</source>
+        <translation>Aktualisiere ZoopSync auf %1, um dessen Fotos zu sichern.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="399"/>
@@ -6250,8 +6250,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="rust_strings.h" line="418"/>
-        <source>Update NectarLink on %1 to play on it.</source>
-        <translation>Aktualisiere NectarLink auf %1, um darauf abzuspielen.</translation>
+        <source>Update ZoopSync on %1 to play on it.</source>
+        <translation>Aktualisiere ZoopSync auf %1, um darauf abzuspielen.</translation>
     </message>
 </context>
 <context>
@@ -6312,8 +6312,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="rust_strings.h" line="427"/>
-        <source>Send to %1 with NectarLink</source>
-        <translation>Mit NectarLink an %1 senden</translation>
+        <source>Send to %1 with ZoopSync</source>
+        <translation>Mit ZoopSync an %1 senden</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="428"/>
@@ -6781,13 +6781,13 @@ Voraussetzungen
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="915"/>
-        <source>NectarLink follows the system unless you pick one.</source>
-        <translation>NectarLink übernimmt die Systemsprache, sofern du keine auswählst.</translation>
+        <source>ZoopSync follows the system unless you pick one.</source>
+        <translation>ZoopSync übernimmt die Systemsprache, sofern du keine auswählst.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="916"/>
-        <source>NectarLink follows Windows unless you pick one.</source>
-        <translation>NectarLink übernimmt die Windows-Sprache, sofern du keine auswählst.</translation>
+        <source>ZoopSync follows Windows unless you pick one.</source>
+        <translation>ZoopSync übernimmt die Windows-Sprache, sofern du keine auswählst.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="924"/>
@@ -7692,8 +7692,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="3223"/>
-        <source>NectarLink %1</source>
-        <translation>NectarLink %1</translation>
+        <source>ZoopSync %1</source>
+        <translation>ZoopSync %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="3226"/>
@@ -7765,8 +7765,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="3385"/>
-        <source>Wi-Fi networks this PC has joined before. Your system keeps their passwords; NectarLink never sees them.</source>
-        <translation>WLAN-Netzwerke, mit denen dieser PC bereits verbunden war. Dein System speichert deren Passwörter; NectarLink sieht sie nie.</translation>
+        <source>Wi-Fi networks this PC has joined before. Your system keeps their passwords; ZoopSync never sees them.</source>
+        <translation>WLAN-Netzwerke, mit denen dieser PC bereits verbunden war. Dein System speichert deren Passwörter; ZoopSync sieht sie nie.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="3386"/>
@@ -7775,8 +7775,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="3388"/>
-        <source>Wi-Fi networks this PC has joined before. Windows keeps their passwords; NectarLink never sees them.</source>
-        <translation>WLAN-Netzwerke, mit denen dieser PC bereits verbunden war. Windows speichert deren Passwörter; NectarLink sieht sie nie.</translation>
+        <source>Wi-Fi networks this PC has joined before. Windows keeps their passwords; ZoopSync never sees them.</source>
+        <translation>WLAN-Netzwerke, mit denen dieser PC bereits verbunden war. Windows speichert deren Passwörter; ZoopSync sieht sie nie.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="3389"/>
@@ -7841,8 +7841,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="rust_strings.h" line="433"/>
-        <source>Couldn&apos;t uninstall NectarLink: %1</source>
-        <translation>NectarLink konnte nicht deinstalliert werden: %1</translation>
+        <source>Couldn&apos;t uninstall ZoopSync: %1</source>
+        <translation>ZoopSync konnte nicht deinstalliert werden: %1</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="434"/>
@@ -7856,8 +7856,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="rust_strings.h" line="436"/>
-        <source>The uninstaller is missing. Reinstall NectarLink, then uninstall it.</source>
-        <translation>Das Deinstallationsprogramm fehlt. Installiere NectarLink erneut und deinstalliere es anschließend.</translation>
+        <source>The uninstaller is missing. Reinstall ZoopSync, then uninstall it.</source>
+        <translation>Das Deinstallationsprogramm fehlt. Installiere ZoopSync erneut und deinstalliere es anschließend.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="437"/>
@@ -7869,13 +7869,13 @@ Voraussetzungen
     <name>SetupWindow</name>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="45"/>
-        <source>Uninstall NectarLink</source>
-        <translation>NectarLink deinstallieren</translation>
+        <source>Uninstall ZoopSync</source>
+        <translation>ZoopSync deinstallieren</translation>
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="45"/>
-        <source>NectarLink Setup</source>
-        <translation>NectarLink-Installation</translation>
+        <source>ZoopSync Setup</source>
+        <translation>ZoopSync-Installation</translation>
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="108"/>
@@ -7887,13 +7887,13 @@ Voraussetzungen
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="175"/>
-        <source>NectarLink</source>
-        <translation>NectarLink</translation>
+        <source>ZoopSync</source>
+        <translation>ZoopSync</translation>
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="204"/>
-        <source>Couldn&apos;t uninstall NectarLink</source>
-        <translation>NectarLink konnte nicht deinstalliert werden</translation>
+        <source>Couldn&apos;t uninstall ZoopSync</source>
+        <translation>ZoopSync konnte nicht deinstalliert werden</translation>
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="204"/>
@@ -7902,28 +7902,28 @@ Voraussetzungen
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="206"/>
-        <source>Uninstalling NectarLink</source>
-        <translation>NectarLink wird deinstalliert</translation>
+        <source>Uninstalling ZoopSync</source>
+        <translation>ZoopSync wird deinstalliert</translation>
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="207"/>
-        <source>Updating NectarLink</source>
-        <translation>NectarLink wird aktualisiert</translation>
+        <source>Updating ZoopSync</source>
+        <translation>ZoopSync wird aktualisiert</translation>
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="208"/>
-        <source>Installing NectarLink</source>
-        <translation>NectarLink wird installiert</translation>
+        <source>Installing ZoopSync</source>
+        <translation>ZoopSync wird installiert</translation>
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="209"/>
-        <source>Uninstall NectarLink?</source>
-        <translation>NectarLink deinstallieren?</translation>
+        <source>Uninstall ZoopSync?</source>
+        <translation>ZoopSync deinstallieren?</translation>
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="224"/>
-        <source>Sorry to see you go. This uninstalls NectarLink and deletes its settings and pairings on this PC. Files you received stay in %1.</source>
-        <translation>Schade, dass du gehst. Dadurch wird NectarLink deinstalliert und alle Einstellungen sowie Kopplungen auf diesem PC werden gelöscht. Empfangene Dateien bleiben in %1 erhalten.</translation>
+        <source>Sorry to see you go. This uninstalls ZoopSync and deletes its settings and pairings on this PC. Files you received stay in %1.</source>
+        <translation>Schade, dass du gehst. Dadurch wird ZoopSync deinstalliert und alle Einstellungen sowie Kopplungen auf diesem PC werden gelöscht. Empfangene Dateien bleiben in %1 erhalten.</translation>
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="226"/>
@@ -7972,8 +7972,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="286"/>
-        <source>Keep NectarLink</source>
-        <translation>NectarLink behalten</translation>
+        <source>Keep ZoopSync</source>
+        <translation>ZoopSync behalten</translation>
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="301"/>
@@ -7983,13 +7983,13 @@ Voraussetzungen
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="334"/>
-        <source>NectarLink is uninstalled</source>
-        <translation>NectarLink wurde deinstalliert</translation>
+        <source>ZoopSync is uninstalled</source>
+        <translation>ZoopSync wurde deinstalliert</translation>
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="334"/>
-        <source>NectarLink is ready</source>
-        <translation>NectarLink ist bereit</translation>
+        <source>ZoopSync is ready</source>
+        <translation>ZoopSync ist bereit</translation>
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="346"/>
@@ -8013,18 +8013,18 @@ Voraussetzungen
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="396"/>
-        <source>Open NectarLink</source>
-        <translation>NectarLink öffnen</translation>
+        <source>Open ZoopSync</source>
+        <translation>ZoopSync öffnen</translation>
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="456"/>
-        <source>NectarLink goes into Program Files for everyone on this PC. Setup also:</source>
-        <translation>NectarLink wird unter „Programme“ für alle Benutzer dieses PCs installiert. Außerdem führt die Installation Folgendes aus:</translation>
+        <source>ZoopSync goes into Program Files for everyone on this PC. Setup also:</source>
+        <translation>ZoopSync wird unter „Programme“ für alle Benutzer dieses PCs installiert. Außerdem führt die Installation Folgendes aus:</translation>
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="457"/>
         <source>allows it through Windows Firewall on private networks, so your phone can connect</source>
-        <translation>lässt NectarLink in privaten Netzwerken durch die Windows-Firewall zu, damit sich dein Gerät verbinden kann</translation>
+        <translation>lässt ZoopSync in privaten Netzwerken durch die Windows-Firewall zu, damit sich dein Gerät verbinden kann</translation>
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="458"/>
@@ -8039,7 +8039,7 @@ Voraussetzungen
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="460"/>
         <source>adds it to the Windows Share sheet</source>
-        <translation>fügt NectarLink zum Teilen-Menü von Windows hinzu</translation>
+        <translation>fügt ZoopSync zum Teilen-Menü von Windows hinzu</translation>
     </message>
     <message>
         <location filename="../qml/setup/SetupWindow.qml" line="461"/>
@@ -8056,8 +8056,8 @@ Voraussetzungen
     <name>ShelfWindow</name>
     <message>
         <location filename="../qml/ShelfWindow.qml" line="16"/>
-        <source>NectarLink Shelf</source>
-        <translation>NectarLink Shelf</translation>
+        <source>ZoopSync Shelf</source>
+        <translation>ZoopSync Shelf</translation>
     </message>
     <message>
         <location filename="../qml/ShelfWindow.qml" line="50"/>
@@ -8693,8 +8693,8 @@ Voraussetzungen
     <name>Transfers</name>
     <message>
         <location filename="rust_strings.h" line="467"/>
-        <source>Accept in NectarLink to save to Downloads\Nectarlink</source>
-        <translation>In NectarLink annehmen, um unter Downloads\Nectarlink zu speichern</translation>
+        <source>Accept in ZoopSync to save to Downloads\Nectarlink</source>
+        <translation>In ZoopSync annehmen, um unter Downloads\Nectarlink zu speichern</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="468"/>
@@ -8736,28 +8736,28 @@ Voraussetzungen
     </message>
     <message>
         <location filename="rust_strings.h" line="475"/>
-        <source>NectarLink %1 is available</source>
-        <translation>NectarLink %1 ist verfügbar</translation>
+        <source>ZoopSync %1 is available</source>
+        <translation>ZoopSync %1 ist verfügbar</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="476"/>
-        <source>NectarLink %1 is available.</source>
-        <translation>NectarLink %1 ist verfügbar.</translation>
+        <source>ZoopSync %1 is available.</source>
+        <translation>ZoopSync %1 ist verfügbar.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="477"/>
-        <source>NectarLink is still on the version you had. Try again from Settings.</source>
-        <translation>NectarLink befindet sich noch auf der bisherigen Version. Versuche es über die Einstellungen erneut.</translation>
+        <source>ZoopSync is still on the version you had. Try again from Settings.</source>
+        <translation>ZoopSync befindet sich noch auf der bisherigen Version. Versuche es über die Einstellungen erneut.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="478"/>
-        <source>NectarLink is up to date.</source>
-        <translation>NectarLink ist auf dem neuesten Stand.</translation>
+        <source>ZoopSync is up to date.</source>
+        <translation>ZoopSync ist auf dem neuesten Stand.</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="479"/>
-        <source>NectarLink is updated to %1</source>
-        <translation>NectarLink wurde auf %1 aktualisiert</translation>
+        <source>ZoopSync is updated to %1</source>
+        <translation>ZoopSync wurde auf %1 aktualisiert</translation>
     </message>
     <message>
         <location filename="rust_strings.h" line="480"/>
@@ -8969,8 +8969,8 @@ Voraussetzungen
     </message>
     <message>
         <location filename="../qml/pages/WalkthroughPage.qml" line="1554"/>
-        <source>Keep NectarLink ready in the system tray when you sign in.</source>
-        <translation>NectarLink beim Anmelden im Infobereich bereithalten.</translation>
+        <source>Keep ZoopSync ready in the system tray when you sign in.</source>
+        <translation>ZoopSync beim Anmelden im Infobereich bereithalten.</translation>
     </message>
     <message>
         <location filename="../qml/pages/WalkthroughPage.qml" line="1612"/>
@@ -9015,13 +9015,13 @@ Voraussetzungen
     <name>WelcomePage</name>
     <message>
         <location filename="../qml/pages/WelcomePage.qml" line="36"/>
-        <source>Welcome to NectarLink</source>
-        <translation>Willkommen bei NectarLink</translation>
+        <source>Welcome to ZoopSync</source>
+        <translation>Willkommen bei ZoopSync</translation>
     </message>
     <message>
         <location filename="../qml/pages/WelcomePage.qml" line="46"/>
-        <source>NectarLink couldn&apos;t start.</source>
-        <translation>NectarLink konnte nicht gestartet werden.</translation>
+        <source>ZoopSync couldn&apos;t start.</source>
+        <translation>ZoopSync konnte nicht gestartet werden.</translation>
     </message>
     <message>
         <location filename="../qml/pages/WelcomePage.qml" line="47"/>

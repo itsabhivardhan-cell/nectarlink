@@ -314,7 +314,7 @@ pub fn send_now(device: DeviceId) {
             }
             Err(Error::TooLarge) => show_message(tr!("Clipboard", "That's too much text to send at once.")),
             Err(Error::Unsupported) if image => {
-                show_message(tr!("Clipboard", "Update NectarLink on %1 to send it images.", name))
+                show_message(tr!("Clipboard", "Update ZoopSync on %1 to send it images.", name))
             }
             Err(Error::Denied) => show_message(tr!("Clipboard", "The clipboard is turned off for %1.", name)),
             Err(e) => show_message(describe(&e)),

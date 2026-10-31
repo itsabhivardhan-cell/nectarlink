@@ -249,7 +249,7 @@ pub fn start(phone: DeviceId) {
                 set_phase(Phase::Off);
                 show_message(match e {
                     Error::Unsupported => {
-                        tr!("PhoneMic", "Update NectarLink on %1 to use its microphone.", name)
+                        tr!("PhoneMic", "Update ZoopSync on %1 to use its microphone.", name)
                     }
                     Error::Denied => tr!("PhoneMic", "The microphone is turned off for this PC on %1.", name),
                     other => describe(&other),

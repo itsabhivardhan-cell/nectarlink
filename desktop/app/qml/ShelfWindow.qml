@@ -13,7 +13,7 @@ import app.nectarlink
 Window {
     id: shelfWin
 
-    title: qsTr("NectarLink Shelf")
+    title: qsTr("ZoopSync Shelf")
     flags: Qt.Tool | Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint | Qt.WindowDoesNotAcceptFocus
     color: "transparent"
     visible: true

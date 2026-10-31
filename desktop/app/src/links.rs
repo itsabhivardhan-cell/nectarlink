@@ -104,7 +104,7 @@ fn notice(title: &str, body: &str) {
         key: "notice".into(),
         title: title.into(),
         body: body.into(),
-        attribution: "NectarLink".into(),
+        attribution: "ZoopSync".into(),
         icon: None,
         image: None,
         actions: Vec::new(),
@@ -195,7 +195,7 @@ fn send(phone: DeviceId, name: String, handoff: HandoffLink) {
                 }
             }
             Err(Error::Unsupported) => {
-                notice(&tr!("Links", "Couldn't send it"), &tr!("Links", "Update NectarLink on %1.", name))
+                notice(&tr!("Links", "Couldn't send it"), &tr!("Links", "Update ZoopSync on %1.", name))
             }
             Err(e) => notice(&tr!("Links", "Couldn't send it"), &describe(&e)),
         }

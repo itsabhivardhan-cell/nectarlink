@@ -30,7 +30,7 @@ class CoreStateTest {
 
     @Test
     fun phoneAsSpeakerCountsWhileAConnectedPcHasItOn() {
-        val speaker = app.nectarlink.core.AudioOutputDevice(PHONE_SPEAKER_OUTPUT, "Phone speaker (NectarLink)", false)
+        val speaker = app.nectarlink.core.AudioOutputDevice(PHONE_SPEAKER_OUTPUT, "Phone speaker (ZoopSync)", false)
         val headphones = app.nectarlink.core.AudioOutputDevice("hp", "Headphones", true)
         fun deck(vararg outputs: app.nectarlink.core.AudioOutputDevice) =
             app.nectarlink.core.DeckState(playing = false, volume = 50u, muted = false, micMuted = null, outputDevices = outputs.toList())

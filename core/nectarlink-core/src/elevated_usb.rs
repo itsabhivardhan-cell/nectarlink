@@ -146,8 +146,8 @@ mod tests {
     #[test]
     fn the_helper_command_and_its_answer() {
         assert_eq!(
-            helper_command("/data/app/~~a==/app.nectarlink-b==/base.apk", "00ff"),
-            "CLASSPATH=/data/app/~~a==/app.nectarlink-b==/base.apk app_process /system/bin \
+            helper_command("/data/app/~~a==/app.zoopsync-b==/base.apk", "00ff"),
+            "CLASSPATH=/data/app/~~a==/app.zoopsync-b==/base.apk app_process /system/bin \
              app.nectarlink.android.elevated.InputServer 00ff"
         );
         assert_eq!(parse_ready("ready 41234\n"), Some(41234));

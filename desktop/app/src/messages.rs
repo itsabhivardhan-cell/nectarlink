@@ -1068,7 +1068,7 @@ pub fn send_problem(error: &Error) -> &'static str {
     match error {
         Error::Denied => "Messages are turned off for this phone.",
         Error::Unsupported => {
-            "The phone doesn't send texts for this PC. Allow it in the NectarLink app on the phone."
+            "The phone doesn't send texts for this PC. Allow it in the ZoopSync app on the phone."
         }
         Error::Offline | Error::NotPaired | Error::Timeout => "The phone isn't connected.",
         Error::TooLarge => "That attachment or message is too large (MMS supports up to 900 KB).",

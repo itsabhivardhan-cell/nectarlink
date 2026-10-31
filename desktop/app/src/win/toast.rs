@@ -217,7 +217,7 @@ fn register(icon: &Path) -> windows::core::Result<()> {
         }
         .ok()
     };
-    let result = set("DisplayName", "NectarLink").and_then(|()| set("IconUri", &icon.to_string_lossy()));
+    let result = set("DisplayName", "ZoopSync").and_then(|()| set("IconUri", &icon.to_string_lossy()));
     // SAFETY: the key was opened above.
     unsafe {
         let _ = RegCloseKey(key);

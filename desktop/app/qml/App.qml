@@ -5,7 +5,7 @@ import QtQml.Models
 import app.nectarlink
 
 // Application root. The main window exists only while it's open: closing it
-// destroys it (freeing its GPU resources) and NectarLink keeps running in
+// destroys it (freeing its GPU resources) and ZoopSync keeps running in
 // the tray. A tray click, a second launch or a ringing request reopens it.
 QtObject {
     id: app

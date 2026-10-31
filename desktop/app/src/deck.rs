@@ -49,7 +49,7 @@ fn sample_live_state() -> DeckState {
     if crate::pc_audio_stream::is_enabled() {
         output_devices.push(nectarlink_core::AudioOutputDevice {
             id: "nectarlink:phone_speaker".to_owned(),
-            name: "Phone speaker (NectarLink)".to_owned(),
+            name: "Phone speaker (ZoopSync)".to_owned(),
             is_default: false,
         });
     }

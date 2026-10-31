@@ -537,7 +537,7 @@ pub fn start(device: Option<DeviceId>) {
             let reason = match e {
                 Error::Denied => "Webcam is turned off for this phone.".to_owned(),
                 Error::Unsupported => {
-                    "This phone's app doesn't support Webcam yet. Update NectarLink on the phone.".into()
+                    "This phone's app doesn't support Webcam yet. Update ZoopSync on the phone.".into()
                 }
                 Error::Offline | Error::NotPaired => "The phone isn't connected.".into(),
                 e => describe(&e),

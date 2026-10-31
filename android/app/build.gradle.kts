@@ -20,7 +20,7 @@ android {
     ndkVersion = "30.0.16248370"
 
     defaultConfig {
-        applicationId = "app.nectarlink"
+        applicationId = "app.zoopsync"
         minSdk = 26
         targetSdk = 37
         versionCode = appVersionCode

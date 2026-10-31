@@ -912,8 +912,8 @@ Item {
                             iconPath: Icons.globe
                             title: qsTr("Language")
                             description: Qt.platform.os === "linux"
-                                ? qsTr("NectarLink follows the system unless you pick one.")
-                                : qsTr("NectarLink follows Windows unless you pick one.")
+                                ? qsTr("ZoopSync follows the system unless you pick one.")
+                                : qsTr("ZoopSync follows Windows unless you pick one.")
                             Segmented {
                                 readonly property var other: page.languages.find(
                                     (l) => l.code === Preferences.language && l.code !== "en")
@@ -3220,7 +3220,7 @@ Item {
                         ListRow {
                             width: parent.width
                             iconPath: Icons.desktop
-                            title: qsTr("NectarLink %1").arg(AppController.version)
+                            title: qsTr("ZoopSync %1").arg(AppController.version)
                             description: AppController.updateStatus.length > 0
                                          ? AppController.updateStatus
                                          : qsTr("This PC: %1").arg(AppController.deviceName)
@@ -3382,10 +3382,10 @@ Item {
                 muted: true
                 text: Qt.platform.os === "linux"
                     ? (hotspotSheet.networks.length > 0
-                        ? qsTr("Wi-Fi networks this PC has joined before. Your system keeps their passwords; NectarLink never sees them.")
+                        ? qsTr("Wi-Fi networks this PC has joined before. Your system keeps their passwords; ZoopSync never sees them.")
                         : qsTr("This PC hasn't saved any Wi-Fi networks yet. Join the phone's hotspot once from your system Wi-Fi list first."))
                     : (hotspotSheet.networks.length > 0
-                        ? qsTr("Wi-Fi networks this PC has joined before. Windows keeps their passwords; NectarLink never sees them.")
+                        ? qsTr("Wi-Fi networks this PC has joined before. Windows keeps their passwords; ZoopSync never sees them.")
                         : qsTr("This PC hasn't saved any Wi-Fi networks yet. Join the phone's hotspot once from Windows' Wi-Fi list first."))
             }
             // A PC can have saved dozens of networks: the list scrolls.

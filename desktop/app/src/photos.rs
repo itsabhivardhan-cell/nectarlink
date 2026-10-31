@@ -158,7 +158,7 @@ fn show(device: DeviceId, photo: &Photo) {
         key: format!("{device} {}", photo.id),
         title: if photo.screenshot { tr!("Photos", "New screenshot") } else { tr!("Photos", "New photo") },
         body: tr!("Photos", "From %1", name),
-        attribution: "NectarLink".into(),
+        attribution: "ZoopSync".into(),
         icon: None,
         image: preview,
         actions: vec![(ACTION_SAVE.into(), "Save".into()), (ACTION_COPY.into(), "Copy".into())],

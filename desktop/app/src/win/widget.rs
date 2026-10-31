@@ -218,7 +218,7 @@ pub fn render_adaptive_card(state: &WidgetState) -> String {
             },
             {
                 "type": "Action.Execute",
-                "title": "Open NectarLink",
+                "title": "Open ZoopSync",
                 "verb": "open_app"
             }
         ]

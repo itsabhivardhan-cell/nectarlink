@@ -52,6 +52,7 @@ pub fn is_blocked_self_source(app_name: &str) -> bool {
     let lower = app_name.trim().to_lowercase();
     lower.is_empty()
         || lower.contains("nectarlink")
+        || lower.contains("zoopsync")
         || lower == "notify-send"
         || lower == "org.freedesktop.notifications"
 }
@@ -220,6 +221,7 @@ mod tests {
     #[test]
     fn blocks_self_source_notifications() {
         assert!(is_blocked_self_source("NectarLink"));
+        assert!(is_blocked_self_source("ZoopSync"));
         assert!(is_blocked_self_source("nectarlink-desktop"));
         assert!(is_blocked_self_source("notify-send"));
         assert!(is_blocked_self_source(""));

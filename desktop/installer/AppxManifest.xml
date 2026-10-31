@@ -16,7 +16,7 @@
     ProcessorArchitecture="x64" />
 
   <Properties>
-    <DisplayName>Nectarlink</DisplayName>
+    <DisplayName>ZoopSync</DisplayName>
     <PublisherDisplayName>The Nectarlink contributors</PublisherDisplayName>
     <Logo>Assets\Square150x150Logo.png</Logo>
     <uap10:AllowExternalContent>true</uap10:AllowExternalContent>
@@ -37,14 +37,14 @@
       uap10:TrustLevel="mediumIL"
       uap10:RuntimeBehavior="win32App">
       <uap:VisualElements
-        DisplayName="Nectarlink"
+        DisplayName="ZoopSync"
         Description="Your phone, on your PC"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
         BackgroundColor="transparent" />
       <Extensions>
         <uap:Extension Category="windows.shareTarget">
-          <uap:ShareTarget Description="Send to your phone with Nectarlink">
+          <uap:ShareTarget Description="Send to your phone with ZoopSync">
             <uap:SupportedFileTypes>
               <uap:SupportsAnyFileType />
             </uap:SupportedFileTypes>
@@ -60,13 +60,13 @@
         </desktop:Extension>
         <com:Extension Category="windows.comServer">
           <com:ComServer>
-            <com:ExeServer Executable="nectarlink-desktop.exe" Arguments="--widget-provider" DisplayName="Nectarlink Widget Provider">
+            <com:ExeServer Executable="nectarlink-desktop.exe" Arguments="--widget-provider" DisplayName="ZoopSync Widget Provider">
               <com:Class Id="9C4E1A22-8F3B-4D09-A6E2-1D8F5C3B9E04" DisplayName="NectarlinkWidgetProvider" />
             </com:ExeServer>
           </com:ComServer>
         </com:Extension>
         <uap3:Extension Category="windows.appExtension">
-          <uap3:AppExtension Name="com.microsoft.windows.widgets" DisplayName="Nectarlink" Id="NectarlinkWidgets" PublicFolder="Widgets">
+          <uap3:AppExtension Name="com.microsoft.windows.widgets" DisplayName="ZoopSync" Id="NectarlinkWidgets" PublicFolder="Widgets">
             <uap3:Properties>
               <WidgetProvider>
                 <ProviderIcons>

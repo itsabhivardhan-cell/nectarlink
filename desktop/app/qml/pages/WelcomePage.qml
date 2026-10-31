@@ -33,7 +33,7 @@ Item {
             Txt {
                 width: parent.width
                 horizontalAlignment: Text.AlignHCenter
-                text: qsTr("Welcome to NectarLink")
+                text: qsTr("Welcome to ZoopSync")
                 role: "displaySmall"
             }
             Txt {
@@ -43,7 +43,7 @@ Item {
                 role: "body"
                 muted: true
                 text: page.status === "failed"
-                      ? qsTr("NectarLink couldn't start.")
+                      ? qsTr("ZoopSync couldn't start.")
                       : qsTr("Your phone and this PC, together. Pair once and they find each other from then on.")
             }
         }

@@ -86,7 +86,7 @@ QtObject {
       },
       "themes": {
         "bloom": {
-          "defaultSeed": "honey",
+          "defaultSeed": "lavender",
           "description": "Default. Minimal Material You: neutral surfaces, color only where it carries meaning.",
           "dynamicColor": true,
           "fonts": {

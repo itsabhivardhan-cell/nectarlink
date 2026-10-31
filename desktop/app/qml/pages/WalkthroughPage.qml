@@ -95,9 +95,9 @@ FocusScope {
     ]
 
     readonly property var stepTitles: [
-        "Welcome to NectarLink",
+        "Welcome to ZoopSync",
         "Your data stays on your devices",
-        "Install NectarLink on your phone",
+        "Install ZoopSync on your phone",
         "Pair your phone and PC",
         "Choose what to share",
         "Optional setup",
@@ -108,7 +108,7 @@ FocusScope {
         "Your Android phone and your PC, working together on your local network.",
         "No accounts, no cloud servers, and no telemetry.",
         "Get the Android app from GitHub Releases or install the APK over USB.",
-        "Scan the QR code from the NectarLink Android app, or pick your phone from nearby devices.",
+        "Scan the QR code from the ZoopSync Android app, or pick your phone from nearby devices.",
         "Safe features are on by default. Higher-trust access stays off until you turn it on.",
         "Three quick checks so notifications and discovery work reliably on your PC.",
         "Reopen it from Settings or the Command Palette."
@@ -920,7 +920,7 @@ FocusScope {
                             }
                         }
 
-                        // STEP 2: Install NectarLink on your phone
+                        // STEP 2: Install ZoopSync on your phone
                         ColumnLayout {
                             Layout.fillWidth: true
                             spacing: 12
@@ -978,7 +978,7 @@ FocusScope {
                                             variant: "tonal"
                                             size: "sm"
                                             Accessible.name: "Open Android release page in browser"
-                                            onClicked: Qt.openUrlExternally("https://github.com/thtbee/nectarlink/releases/latest")
+                                            onClicked: Qt.openUrlExternally("https://github.com/itsabhivardhan-cell/nectarlink/releases/latest")
                                         }
 
                                         Button {
@@ -990,7 +990,7 @@ FocusScope {
                                             size: "sm"
                                             Accessible.name: "Copy Android release URL"
                                             onClicked: {
-                                                AppController.copyText("https://github.com/thtbee/nectarlink/releases/latest")
+                                                AppController.copyText("https://github.com/itsabhivardhan-cell/nectarlink/releases/latest")
                                                 copied = true
                                                 resetCopyUrlTimer.restart()
                                             }
@@ -1475,7 +1475,7 @@ FocusScope {
                                                     : "Enabled in Windows Settings.")
                                                 : (Qt.platform.os === "linux"
                                                     ? "Notifications are muted or Do Not Disturb is active."
-                                                    : "Notifications are off for NectarLink in Windows Settings.")
+                                                    : "Notifications are off for ZoopSync in Windows Settings.")
                                             role: "caption"
                                             color: Theme.surfaceContentVariant
                                             wrapMode: Text.WordWrap
@@ -1551,7 +1551,7 @@ FocusScope {
 
                                         Txt {
                                             Layout.fillWidth: true
-                                            text: qsTr("Keep NectarLink ready in the system tray when you sign in.")
+                                            text: qsTr("Keep ZoopSync ready in the system tray when you sign in.")
                                             role: "caption"
                                             color: Theme.surfaceContentVariant
                                             wrapMode: Text.WordWrap
@@ -1654,7 +1654,7 @@ FocusScope {
                                             : "Pair a phone anytime from Home",
                                         body: walkthrough.hasPairedDevice
                                             ? "Your phone is linked and ready on your local network."
-                                            : "Open the NectarLink Android app whenever you are ready to scan the QR code."
+                                            : "Open the ZoopSync Android app whenever you are ready to scan the QR code."
                                     },
                                     {
                                         icon: Icons.search,
@@ -1664,7 +1664,7 @@ FocusScope {
                                     {
                                         icon: Icons.book,
                                         title: qsTr("Features guide"),
-                                        body: "Browse every feature in NectarLink, see what permissions it needs, and jump straight to it."
+                                        body: "Browse every feature in ZoopSync, see what permissions it needs, and jump straight to it."
                                     }
                                 ]
 

@@ -33,7 +33,7 @@ pub const INSTALLER_ARG: &str = "--installer";
 pub const INSTALLED_ARG: &str = "--installed";
 
 /// Where the Android app is downloaded (the done screen's QR code and link).
-pub const ANDROID_URL: &str = "https://github.com/thtbee/nectarlink/releases/latest";
+pub const ANDROID_URL: &str = "https://github.com/itsabhivardhan-cell/nectarlink/releases/latest";
 
 const APP_EXE: &str = if cfg!(windows) { "nectarlink-desktop.exe" } else { "nectarlink-desktop" };
 #[cfg(windows)]
@@ -192,7 +192,7 @@ impl Step {
     /// What the window says while this step runs.
     pub fn label(self) -> &'static str {
         match self {
-            Step::Closing => "Closing NectarLink",
+            Step::Closing => "Closing ZoopSync",
             Step::Files => "Copying files",
             #[cfg(not(target_os = "linux"))]
             Step::Firewall => "Allowing through Windows Firewall",
@@ -318,7 +318,7 @@ pub fn remove(installed: &Path, mut on_event: impl FnMut(Event)) -> Outcome {
     if !uninstaller.is_file() {
         return Outcome::Failed(tr!(
             "Setup",
-            "The uninstaller is missing. Reinstall NectarLink, then uninstall it."
+            "The uninstaller is missing. Reinstall ZoopSync, then uninstall it."
         ));
     }
     let progress = progress_file("remove");
@@ -385,7 +385,7 @@ pub fn remove(installed: &Path, mut on_event: impl FnMut(Event)) -> Outcome {
         }
         Ok(126 | 127) => Outcome::Declined,
         Ok(code) => Outcome::Failed(tr!("Setup", "Uninstall stopped with code %1.", code)),
-        Err(e) => Outcome::Failed(tr!("Setup", "Couldn't uninstall NectarLink: %1", e)),
+        Err(e) => Outcome::Failed(tr!("Setup", "Couldn't uninstall ZoopSync: %1", e)),
     }
 }
 
@@ -405,7 +405,7 @@ pub fn remove_user_data() {
     if let Err(e) = std::fs::remove_dir_all(&data)
         && e.kind() != std::io::ErrorKind::NotFound
     {
-        tracing::warn!(error = %e, "can't remove all of NectarLink's data");
+        tracing::warn!(error = %e, "can't remove all of ZoopSync's data");
     }
 }
 

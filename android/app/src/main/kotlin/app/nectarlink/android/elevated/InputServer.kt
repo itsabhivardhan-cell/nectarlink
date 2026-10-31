@@ -39,16 +39,16 @@ import java.security.MessageDigest
  * connection closes the window.
  */
 /**
- * Compiles NectarLink ahead of time from its startup profile, as Android does
+ * Compiles ZoopSync ahead of time from its startup profile, as Android does
  * on its own only during idle maintenance. Asked once per version by
  * [Elevated]; allowed by name in the helper.
  */
-internal const val COMPILE_APP_COMMAND = "cmd package compile -m speed-profile app.nectarlink"
+internal const val COMPILE_APP_COMMAND = "cmd package compile -m speed-profile app.zoopsync"
 
 object InputServer {
     private const val POWER_MODE_OFF = 0
     private const val POWER_MODE_NORMAL = 2
-    private const val PKG = "app.nectarlink"
+    private const val PKG = "app.zoopsync"
 
     private val windows = java.util.Collections.synchronizedSet(LinkedHashSet<AppDisplay>())
     @Volatile private var serverSocket: ServerSocket? = null
@@ -771,7 +771,7 @@ object InputServer {
             "cmd wifi start-softap",
             "cmd wifi stop-softap",
             // Pause for banking apps: seeing which app is in front.
-            "appops set app.nectarlink GET_USAGE_STATS allow",
+            "appops set app.zoopsync GET_USAGE_STATS allow",
             // Fast starts right after an install or update.
             COMPILE_APP_COMMAND,
         )
@@ -919,7 +919,7 @@ object InputServer {
             val usage = androidKeyCodeToHidUsage(androidKeyCode) ?: return false
             if (!keyboardAttempted) {
                 keyboardAttempted = true
-                keyboardFd = openDevice("NectarLink Virtual Keyboard", 0x4EE7, KEYBOARD_RD)
+                keyboardFd = openDevice("ZoopSync Virtual Keyboard", 0x4EE7, KEYBOARD_RD)
             }
             val fd = keyboardFd ?: return false
             val down = ByteArray(8).apply { this[2] = usage.toByte() }
@@ -931,7 +931,7 @@ object InputServer {
         fun sendGamepadReport(buttons: Int, lx: Int, ly: Int, rx: Int, ry: Int, lt: Int, rt: Int): Boolean {
             if (!gamepadAttempted) {
                 gamepadAttempted = true
-                gamepadFd = openDevice("NectarLink Virtual Gamepad", 0x4EE8, GAMEPAD_RD)
+                gamepadFd = openDevice("ZoopSync Virtual Gamepad", 0x4EE8, GAMEPAD_RD)
             }
             val fd = gamepadFd ?: return false
             val report = java.nio.ByteBuffer.allocate(12).order(java.nio.ByteOrder.LITTLE_ENDIAN).apply {

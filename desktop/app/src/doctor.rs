@@ -129,8 +129,8 @@ fn match_oem(raw: &str) -> Option<(&'static str, String)> {
             "Samsung",
             tr!(
                 "Doctor",
-                "On Samsung: open Settings → Apps → NectarLink → Battery and choose Unrestricted, then in \
-             Device care → Battery → Background usage limits make sure NectarLink is never put to sleep."
+                "On Samsung: open Settings → Apps → ZoopSync → Battery and choose Unrestricted, then in \
+             Device care → Battery → Background usage limits make sure ZoopSync is never put to sleep."
             ),
         ))
     } else if lower.contains("xiaomi") || lower.contains("redmi") || lower.contains("poco") {
@@ -138,7 +138,7 @@ fn match_oem(raw: &str) -> Option<(&'static str, String)> {
             "Xiaomi",
             tr!(
                 "Doctor",
-                "On Xiaomi / HyperOS / MIUI: open Settings → Apps → Manage apps → NectarLink, turn on \
+                "On Xiaomi / HyperOS / MIUI: open Settings → Apps → Manage apps → ZoopSync, turn on \
              Autostart, and set Battery saver to No restrictions."
             ),
         ))
@@ -147,7 +147,7 @@ fn match_oem(raw: &str) -> Option<(&'static str, String)> {
             "OnePlus",
             tr!(
                 "Doctor",
-                "On OnePlus / OxygenOS: open Settings → Apps → App management → NectarLink → Battery usage and \
+                "On OnePlus / OxygenOS: open Settings → Apps → App management → ZoopSync → Battery usage and \
              turn on Allow background activity and Allow auto-launch."
             ),
         ))
@@ -156,7 +156,7 @@ fn match_oem(raw: &str) -> Option<(&'static str, String)> {
             "Oppo / Realme",
             tr!(
                 "Doctor",
-                "On Oppo / Realme: open Settings → Apps → App management → NectarLink → Battery usage and turn \
+                "On Oppo / Realme: open Settings → Apps → App management → ZoopSync → Battery usage and turn \
              on Allow background activity and Allow auto-launch."
             ),
         ))
@@ -166,7 +166,7 @@ fn match_oem(raw: &str) -> Option<(&'static str, String)> {
             tr!(
                 "Doctor",
                 "On Vivo / OriginOS / Funtouch: open Settings → Battery → Background power consumption \
-             management → NectarLink and choose Unrestricted, and allow Autostart."
+             management → ZoopSync and choose Unrestricted, and allow Autostart."
             ),
         ))
     } else if lower.contains("huawei") || lower.contains("honor") {
@@ -175,7 +175,7 @@ fn match_oem(raw: &str) -> Option<(&'static str, String)> {
             tr!(
                 "Doctor",
                 "On Huawei / Honor: open Settings → Battery → App launch, turn off Manage automatically for \
-             NectarLink, and keep Auto-launch, Secondary launch, and Run in background on."
+             ZoopSync, and keep Auto-launch, Secondary launch, and Run in background on."
             ),
         ))
     } else if lower.contains("pixel") || lower.contains("google") {
@@ -183,7 +183,7 @@ fn match_oem(raw: &str) -> Option<(&'static str, String)> {
             "Pixel",
             tr!(
                 "Doctor",
-                "On Pixel: open Settings → Apps → See all apps → NectarLink → App battery usage, tap Allow \
+                "On Pixel: open Settings → Apps → See all apps → ZoopSync → App battery usage, tap Allow \
              background usage, and choose Unrestricted."
             ),
         ))
@@ -254,15 +254,15 @@ pub fn diagnose(facts: &Facts, now_secs: i64) -> Vec<Check> {
         Some(f) if f.blocked => {
             #[cfg(target_os = "linux")]
             let (title, detail) = (
-                tr!("Doctor", "The firewall blocks NectarLink"),
+                tr!("Doctor", "The firewall blocks ZoopSync"),
                 tr!(
                     "Doctor",
-                    "A firewall rule blocks incoming NectarLink connections. Allow it, and your phone can connect."
+                    "A firewall rule blocks incoming ZoopSync connections. Allow it, and your phone can connect."
                 ),
             );
             #[cfg(not(target_os = "linux"))]
             let (title, detail) = (
-                tr!("Doctor", "Windows Firewall blocks NectarLink"),
+                tr!("Doctor", "Windows Firewall blocks ZoopSync"),
                 tr!(
                     "Doctor",
                     "Someone chose not to allow it when Windows asked. Allow it, and your phone can connect."
@@ -272,9 +272,9 @@ pub fn diagnose(facts: &Facts, now_secs: i64) -> Vec<Check> {
         }
         Some(f) if !f.allowed => {
             #[cfg(target_os = "linux")]
-            let title = tr!("Doctor", "NectarLink isn't allowed through the firewall");
+            let title = tr!("Doctor", "ZoopSync isn't allowed through the firewall");
             #[cfg(not(target_os = "linux"))]
-            let title = tr!("Doctor", "NectarLink isn't allowed through Windows Firewall");
+            let title = tr!("Doctor", "ZoopSync isn't allowed through Windows Firewall");
             checks.push(check(
                 "firewall",
                 Outcome::Warn,
@@ -393,7 +393,7 @@ pub fn diagnose(facts: &Facts, now_secs: i64) -> Vec<Check> {
                     tr!("Doctor", "%1 isn't connected", name),
                     tr!(
                         "Doctor",
-                        "%1 Open NectarLink on the phone and keep both on the same network. If the phone \
+                        "%1 Open ZoopSync on the phone and keep both on the same network. If the phone \
                          asks to run in the background, allow it.",
                         seen
                     ),

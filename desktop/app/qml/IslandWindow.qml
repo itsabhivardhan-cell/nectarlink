@@ -255,7 +255,7 @@ Window {
                 : base
         }
         if (mode === "notification")
-            return qsTr("Click to view in NectarLink")
+            return qsTr("Click to view in ZoopSync")
         if (mode === "waiting") {
             return DeviceList.count > 0
                 ? qsTr("Will send when %1 is back").arg(DeviceList.deviceNameAt(0))

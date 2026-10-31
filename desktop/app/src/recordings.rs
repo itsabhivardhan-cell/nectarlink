@@ -597,7 +597,7 @@ pub fn on_done(transfer: Transfer) {
             key: final_path.to_string_lossy().into_owned(),
             title: tr!("Recordings", "Recording from %1 saved", device),
             body,
-            attribution: "NectarLink".into(),
+            attribution: "ZoopSync".into(),
             icon: None,
             image: None,
             actions: vec![(ACTION_OPEN.into(), "Open".into()), (ACTION_SHOW.into(), "Show in folder".into())],

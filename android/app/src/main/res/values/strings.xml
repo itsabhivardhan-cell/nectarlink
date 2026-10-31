@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- SPDX-License-Identifier: GPL-3.0-or-later -->
 <resources>
-    <string name="app_name">NectarLink</string>
+    <string name="app_name">ZoopSync</string>
 
     <!-- Pairing -->
     <string name="pair_title">Pair with your PC</string>
     <string name="pair_show_title">Pair a phone or tablet</string>
-    <string name="pair_show_hint">On your other phone or tablet, open NectarLink, tap Pair, and scan this code.</string>
+    <string name="pair_show_hint">On your other phone or tablet, open ZoopSync, tap Pair, and scan this code.</string>
     <string name="pair_show_qr_desc">Pairing code for another phone or tablet</string>
     <string name="action_show_code">Pair a phone or tablet instead</string>
-    <string name="pair_scan_hint">On your PC, open NectarLink. Point the camera at the code it shows. Another phone or tablet shows its code under Pair a phone or tablet.</string>
+    <string name="pair_scan_hint">On your PC, open ZoopSync. Point the camera at the code it shows. Another phone or tablet shows its code under Pair a phone or tablet.</string>
     <string name="pair_nearby_title">Pair nearby</string>
-    <string name="pair_nearby_hint">On your PC, open NectarLink and keep its pairing screen open. It shows up here.</string>
+    <string name="pair_nearby_hint">On your PC, open ZoopSync and keep its pairing screen open. It shows up here.</string>
     <string name="pair_looking">Looking for PCs…</string>
     <string name="pair_joining">Pairing…</string>
     <string name="pair_connecting">Connecting to %1$s…</string>
@@ -25,9 +25,9 @@
     <string name="pair_failed_declined">Pairing was declined on one of the devices.</string>
     <string name="pair_failed_expired">The code expired. Show a new one on your PC.</string>
     <string name="pair_failed_unreachable">Couldn\'t reach the PC. Make sure both are on the same network.</string>
-    <string name="pair_failed_other">That isn\'t a NectarLink pairing code, or something went wrong.</string>
+    <string name="pair_failed_other">That isn\'t a ZoopSync pairing code, or something went wrong.</string>
     <string name="your_pc">your PC</string>
-    <string name="camera_permission_needed">NectarLink needs the camera to scan the pairing code. Nothing is recorded.</string>
+    <string name="camera_permission_needed">ZoopSync needs the camera to scan the pairing code. Nothing is recorded.</string>
 
     <!-- Home -->
     <string name="home_title">Home</string>
@@ -62,7 +62,7 @@
     <string name="settings_notifications">Notifications</string>
     <string name="notifications_title">Show notifications on your PC</string>
     <string name="notifications_on">On. Notifications appear on your paired PCs, where you can reply to and dismiss them.</string>
-    <string name="notifications_off">NectarLink needs notification access to show this phone’s notifications on your PC.</string>
+    <string name="notifications_off">ZoopSync needs notification access to show this phone’s notifications on your PC.</string>
     <string name="notifications_restricted">Switch greyed out? Open App info, tap ⋮, choose “Allow restricted settings”, then try again.</string>
     <string name="action_allow">Allow</string>
     <string name="clip_share_label">Send to PC</string>
@@ -76,12 +76,12 @@
     <string name="media_previous">Previous</string>
     <string name="action_send_files">Send files</string>
     <string name="action_send_folder">Send a folder</string>
-    <string name="input_service_label">NectarLink: control from your PC</string>
+    <string name="input_service_label">ZoopSync: control from your PC</string>
     <string name="input_service_description">Lets your PC\'s mouse and keyboard tap, swipe and type on this phone while you share its screen with a paired PC. It reads nothing else.</string>
     <string name="settings_control">Control from your PC</string>
     <string name="control_title">Use your PC\'s mouse and keyboard</string>
     <string name="control_on">On: while your screen is shown on your PC, you can tap, swipe and type from there.</string>
-    <string name="control_off">Tap, swipe and type from your PC while it shows this screen. Turn on NectarLink in Accessibility.</string>
+    <string name="control_off">Tap, swipe and type from your PC while it shows this screen. Turn on ZoopSync in Accessibility.</string>
     <string name="dnd_access_title">Do Not Disturb and silent mode</string>
     <string name="dnd_access_on">On: your PC can turn Do Not Disturb on or off and set the ringer to silent.</string>
     <string name="dnd_access_off">Let your PC turn Do Not Disturb on or off and set the ringer to silent.</string>
@@ -89,7 +89,7 @@
     <string name="write_settings_on">On: your PC can adjust this phone\'s screen brightness.</string>
     <string name="write_settings_off">Let your PC adjust this phone\'s screen brightness.</string>
     <string name="local_network_title">Reach your PC on this network</string>
-    <string name="local_network_text">Android asks before an app talks to devices on your network. NectarLink needs it to reach your PC.</string>
+    <string name="local_network_text">Android asks before an app talks to devices on your network. ZoopSync needs it to reach your PC.</string>
     <string name="channel_elevated">Wireless debugging setup</string>
     <string name="elevated_title">Real touch and keys (Wireless debugging)</string>
     <string name="elevated_not_set_up">Real-time touch, every key, and mute, hold and keypad on calls from your PC. Uses Android\'s own Wireless debugging.</string>
@@ -97,18 +97,18 @@
     <string name="elevated_starting">Starting…</string>
     <string name="elevated_running">On: your PC\'s mouse and keyboard work like a real touchscreen and keyboard.</string>
     <string name="elevated_failed">Couldn\'t start it. Check that Wireless debugging is on, then try again.</string>
-    <string name="elevated_not_paired">The phone forgot NectarLink\'s pairing. Set it up again.</string>
+    <string name="elevated_not_paired">The phone forgot ZoopSync\'s pairing. Set it up again.</string>
     <string name="elevated_set_up">Set up</string>
     <string name="elevated_use_root">Use root</string>
     <string name="elevated_root_hint">This phone is rooted, so Elevated can start through root instead: no pairing, and it comes back by itself after a restart or away from Wi-Fi. It gets the same permissions as with Wireless debugging.</string>
     <string name="elevated_running_root">On, through root: your PC\'s mouse and keyboard work like a real touchscreen and keyboard.</string>
-    <string name="elevated_root_failed">Root wasn\'t allowed, or your root manager can\'t start NectarLink\'s helper as the shell user. You can set it up with Wireless debugging instead.</string>
+    <string name="elevated_root_failed">Root wasn\'t allowed, or your root manager can\'t start ZoopSync\'s helper as the shell user. You can set it up with Wireless debugging instead.</string>
     <string name="elevated_turn_off">Turn off</string>
     <string name="elevated_try_again">Try again</string>
     <string name="elevated_steps_title">Set up Wireless debugging</string>
-    <string name="elevated_steps">One-time codes in notifications Android hides as sensitive also reach your PC.\n\n1. Turn on Developer options: in Settings › About phone, tap Build number 7 times.\n2. In Developer options, turn on Wireless debugging (on Wi-Fi), open it and tap Pair device with pairing code.\n3. Type the 6-digit code into NectarLink\'s notification, without closing the code.</string>
+    <string name="elevated_steps">One-time codes in notifications Android hides as sensitive also reach your PC.\n\n1. Turn on Developer options: in Settings › About phone, tap Build number 7 times.\n2. In Developer options, turn on Wireless debugging (on Wi-Fi), open it and tap Pair device with pairing code.\n3. Type the 6-digit code into ZoopSync\'s notification, without closing the code.</string>
     <string name="elevated_open_developer">Open Developer options</string>
-    <string name="elevated_pair_title">Pair NectarLink with Wireless debugging</string>
+    <string name="elevated_pair_title">Pair ZoopSync with Wireless debugging</string>
     <string name="elevated_pair_text">In Wireless debugging, tap Pair device with pairing code, then type the code here.</string>
     <string name="elevated_pair_action">Enter code</string>
     <string name="elevated_pair_hint">6-digit pairing code</string>
@@ -172,7 +172,7 @@
     <string name="clip_empty">There’s no text or image on the clipboard.</string>
     <string name="clip_image_too_large">That image is too large to send.</string>
     <string name="clip_image_unreadable">That image can’t be read.</string>
-    <string name="clip_image_unsupported">Update NectarLink on %1$s to send it images.</string>
+    <string name="clip_image_unsupported">Update ZoopSync on %1$s to send it images.</string>
     <string name="clip_nothing_shared">There’s no text to send.</string>
     <string name="clipboard_history_title">Clipboard history</string>
     <string name="clipboard_history_subtitle">Your last 50 clips with your PCs, kept encrypted on this phone.</string>
@@ -200,20 +200,20 @@
     <string name="clip_action_track">Track</string>
     <string name="clip_action_email">Email</string>
     <string name="background_title">Stay reachable in the background</string>
-    <string name="background_text">Android is pausing NectarLink to save battery, so your PC can\'t reach it. Let it run in the background.</string>
+    <string name="background_text">Android is pausing ZoopSync to save battery, so your PC can\'t reach it. Let it run in the background.</string>
     <string name="background_on">Allowed to stay connected in the background</string>
     <string name="settings_background_title">Background &amp; battery</string>
     <string name="settings_run_in_background">Run in the background</string>
-    <string name="settings_run_in_background_hint">Keeps this phone reachable from your PC. When off, NectarLink connects only while it\'s open, and the notification goes away.</string>
+    <string name="settings_run_in_background_hint">Keeps this phone reachable from your PC. When off, ZoopSync connects only while it\'s open, and the notification goes away.</string>
     <string name="home_background_off_title">Background connection is off</string>
-    <string name="home_background_off_text">NectarLink connects only while the app is open. Turn it on to keep this phone reachable from your PC.</string>
+    <string name="home_background_off_text">ZoopSync connects only while the app is open. Turn it on to keep this phone reachable from your PC.</string>
     <string name="battery_open_oem_settings">Battery settings</string>
-    <string name="battery_guide_samsung">On Samsung: open App info › Battery › select Unrestricted, and in Device care › Battery › Background usage limits make sure NectarLink is never put to sleep.</string>
-    <string name="battery_guide_xiaomi">On Xiaomi / HyperOS / MIUI: turn on Autostart for NectarLink, and in App info › Battery saver select No restrictions.</string>
+    <string name="battery_guide_samsung">On Samsung: open App info › Battery › select Unrestricted, and in Device care › Battery › Background usage limits make sure ZoopSync is never put to sleep.</string>
+    <string name="battery_guide_xiaomi">On Xiaomi / HyperOS / MIUI: turn on Autostart for ZoopSync, and in App info › Battery saver select No restrictions.</string>
     <string name="battery_guide_oneplus">On OnePlus / OxygenOS: open App info › Battery usage › turn on Allow background activity and Allow auto-launch.</string>
     <string name="battery_guide_oppo_realme">On Oppo / Realme: open App info › Battery usage › turn on Allow background activity and Allow auto-launch.</string>
     <string name="battery_guide_vivo">On Vivo / Funtouch / OriginOS: open App info › Battery › select Unrestricted (High background power usage) and allow Autostart.</string>
-    <string name="battery_guide_huawei">On Huawei / Honor: open App launch (Phone Manager) › turn off Manage automatically for NectarLink and keep Auto-launch, Secondary launch, and Run in background on.</string>
+    <string name="battery_guide_huawei">On Huawei / Honor: open App launch (Phone Manager) › turn off Manage automatically for ZoopSync and keep Auto-launch, Secondary launch, and Run in background on.</string>
     <string name="battery_guide_pixel">On Pixel: open App info › App battery usage › tap Allow background usage and select Unrestricted.</string>
     <string name="action_manage">Manage</string>
     <string name="action_app_info">App info</string>
@@ -229,10 +229,10 @@
     <string name="mode_system">System</string>
     <string name="mode_light">Light</string>
     <string name="mode_dark">Dark</string>
-    <string name="about_version">NectarLink %1$s</string>
+    <string name="about_version">ZoopSync %1$s</string>
     <string name="unpair_title">Unpair %1$s?</string>
     <string name="unpair_text">Both devices forget each other. You can pair them again any time.</string>
-    <string name="core_failed">NectarLink couldn\'t start: %1$s</string>
+    <string name="core_failed">ZoopSync couldn\'t start: %1$s</string>
 
     <!-- Actions -->
     <string name="action_pair">Pair</string>
@@ -254,21 +254,21 @@
     <string name="action_pair_new">Pair another PC</string>
     <string name="action_refresh">Refresh</string>
     <string name="action_update">Update</string>
-    <string name="update_title">NectarLink %1$s is available</string>
+    <string name="update_title">ZoopSync %1$s is available</string>
     <string name="update_text">Get the latest improvements and fixes.</string>
     <string name="update_downloading">Downloading…</string>
     <string name="update_downloading_progress">Downloading · %1$s of %2$s</string>
     <string name="update_waiting_network">Waiting for a connection. The download continues where it stopped.</string>
     <string name="update_installing">Installing. Android may ask you to confirm.</string>
-    <string name="update_not_allowed">Allow NectarLink to install its updates. The update continues when you come back.</string>
+    <string name="update_not_allowed">Allow ZoopSync to install its updates. The update continues when you come back.</string>
     <string name="update_damaged">The download was damaged, so it wasn’t installed. Try again.</string>
     <string name="update_offline">The update couldn’t be downloaded. Try again when you’re online.</string>
     <string name="update_install_failed">Android didn’t install the update. Try again.</string>
     <string name="update_whats_new">What’s new</string>
     <string name="update_check">Check for updates</string>
     <string name="update_checking">Checking for updates…</string>
-    <string name="update_up_to_date_version">NectarLink %1$s is up to date.</string>
-    <string name="update_current_version">You have NectarLink %1$s.</string>
+    <string name="update_up_to_date_version">ZoopSync %1$s is up to date.</string>
+    <string name="update_current_version">You have ZoopSync %1$s.</string>
     <string name="update_check_failed">Couldn’t check for updates. Check your internet connection.</string>
     <string name="action_lock_pc">Lock PC</string>
     <string name="action_sleep_pc">Sleep</string>
@@ -351,11 +351,11 @@
     <string name="remote_dictate_no_recognizer">This phone doesn\'t have speech recognition installed.</string>
     <string name="remote_dictate_no_speech">Didn\'t catch anything. Tap or hold Dictate to try again.</string>
     <string name="remote_dictate_error">Speech recognition couldn\'t finish. Tap or hold Dictate to try again.</string>
-    <string name="remote_dictate_permission_needed">NectarLink needs microphone access to dictate into %1$s.</string>
+    <string name="remote_dictate_permission_needed">ZoopSync needs microphone access to dictate into %1$s.</string>
     <string name="remote_denied_title">Allow control on %1$s</string>
-    <string name="remote_denied_text">On %1$s, allow control from this phone in NectarLink\'s prompt or in Settings › Devices.</string>
+    <string name="remote_denied_text">On %1$s, allow control from this phone in ZoopSync\'s prompt or in Settings › Devices.</string>
     <string name="remote_offline_text">%1$s isn\'t connected right now.</string>
-    <string name="remote_unsupported_text">Update NectarLink on %1$s to control it from this phone.</string>
+    <string name="remote_unsupported_text">Update ZoopSync on %1$s to control it from this phone.</string>
     <string name="remote_slide_next">Next slide</string>
     <string name="remote_slide_prev">Previous</string>
     <string name="remote_slide_start">Start show</string>
@@ -396,7 +396,7 @@
     <string name="recorder_notification_recording">Recording for %1$s</string>
     <string name="recorder_notification_paused">Recording paused (%1$s)</string>
     <string name="recorder_permission_title">Allow microphone access</string>
-    <string name="recorder_permission_text">NectarLink uses the microphone only while you record a voice note to send to %1$s.</string>
+    <string name="recorder_permission_text">ZoopSync uses the microphone only while you record a voice note to send to %1$s.</string>
     <string name="recorder_allow_mic">Allow microphone</string>
     <string name="recorder_offline_hint">Recordings are saved on this phone and sent automatically when %1$s connects.</string>
     <string name="recorder_status_ready">Ready to record for %1$s</string>
@@ -428,9 +428,9 @@
     <string name="deck_muted">Muted</string>
     <string name="deck_live">Live</string>
     <string name="deck_volume_percent">%1$d%%</string>
-    <string name="deck_empty_page">No tiles on this page yet. Add tiles in NectarLink on %1$s.</string>
+    <string name="deck_empty_page">No tiles on this page yet. Add tiles in ZoopSync on %1$s.</string>
     <string name="deck_commands_denied_title">Allow commands on %1$s</string>
-    <string name="deck_commands_denied_text">To run shell commands from this phone, turn on “Run Deck commands” for this phone in NectarLink › Settings › Devices on %1$s.</string>
+    <string name="deck_commands_denied_text">To run shell commands from this phone, turn on “Run Deck commands” for this phone in ZoopSync › Settings › Devices on %1$s.</string>
     <string name="deck_hint">Customize tiles in Deck on %1$s</string>
     <string name="pc_audio_volume">Volume</string>
     <string name="pc_audio_mute">Mute</string>
@@ -470,7 +470,7 @@
     <string name="webcam_request_title">%1$s wants to use your camera</string>
     <string name="webcam_request_text">Tap to open the webcam controls and start streaming.</string>
     <string name="webcam_permission_title">Allow camera access</string>
-    <string name="webcam_permission_text">NectarLink uses the camera only while you stream video to %1$s as a webcam.</string>
+    <string name="webcam_permission_text">ZoopSync uses the camera only while you stream video to %1$s as a webcam.</string>
     <string name="webcam_allow_camera">Allow camera</string>
     <string name="webcam_status_connecting">Connecting camera to %1$s…</string>
     <string name="webcam_status_ready">Ready to stream to %1$s</string>
@@ -667,7 +667,7 @@
     <string name="widget_pc_title">PC quick actions</string>
     <string name="widget_pc_description">Connection status, Send clipboard, Ring PC, Lock PC, and Wake for your paired PC.</string>
     <string name="widget_pc_no_pc">No PC paired</string>
-    <string name="widget_pc_tap_to_pair">Tap to open NectarLink and pair a PC</string>
+    <string name="widget_pc_tap_to_pair">Tap to open ZoopSync and pair a PC</string>
     <string name="widget_pc_connected">Connected</string>
     <string name="widget_pc_offline">Offline</string>
     <string name="widget_pc_waking">Waking…</string>
@@ -680,8 +680,8 @@
 
     <!-- Companion Device Manager proximity wake -->
     <string name="companion_wake_title">Wake when PC is nearby (Companion Device)</string>
-    <string name="companion_wake_on">Associated · Android wakes NectarLink when your PC is nearby</string>
-    <string name="companion_wake_off">Associate your PC so Android wakes NectarLink when its BLE beacon is in range</string>
+    <string name="companion_wake_on">Associated · Android wakes ZoopSync when your PC is nearby</string>
+    <string name="companion_wake_off">Associate your PC so Android wakes ZoopSync when its BLE beacon is in range</string>
     <string name="companion_wake_associate">Associate</string>
 
     <!-- Flick to Send sheet -->
@@ -698,9 +698,9 @@
     <string name="pc_files_downloading">Downloading %1$s…</string>
     <string name="pc_files_saved">Saved %1$s to Downloads</string>
     <string name="pc_files_failed">Couldn’t download %1$s</string>
-    <string name="pc_files_not_shared">Turn on “Your PC in your pocket” in NectarLink’s Settings on %1$s.</string>
+    <string name="pc_files_not_shared">Turn on “Your PC in your pocket” in ZoopSync’s Settings on %1$s.</string>
     <string name="pc_files_offline">%1$s isn’t connected.</string>
-    <string name="pc_files_update">Update NectarLink on %1$s to browse its files.</string>
+    <string name="pc_files_update">Update ZoopSync on %1$s to browse its files.</string>
     <string name="pc_files_not_found">This folder isn’t on %1$s anymore.</string>
     <string name="pc_files_error">Couldn’t list this folder on %1$s. Try again.</string>
     <string name="pc_files_folder_downloads">Downloads</string>
@@ -715,7 +715,7 @@
     <string name="mirror_allow_pc_control">Allow PC mouse control</string>
     <string name="action_open_controls">Controls</string>
     <string name="remote_input_requested_title">Your PC tried to control this phone</string>
-    <string name="remote_input_requested_text">Turn on “NectarLink: control from your PC” in Accessibility to use your PC\'s mouse and keyboard on this phone.</string>
+    <string name="remote_input_requested_text">Turn on “ZoopSync: control from your PC” in Accessibility to use your PC\'s mouse and keyboard on this phone.</string>
     <string name="permissions_setup_title">Permissions &amp; setup (%1$d remaining)</string>
     <string name="permissions_setup_subtitle">Notifications, calls, texts, photos and background access</string>
     <string name="clipboard_preview_hidden">••••••••••••</string>
@@ -805,10 +805,10 @@
 
     <string name="walkthrough_perm_access_title">Assist</string>
     <string name="walkthrough_perm_access_does">Control your mirrored phone screen from your PC with mouse and keyboard.</string>
-    <string name="walkthrough_perm_access_requires">Android requires the NectarLink Accessibility service or Elevated.</string>
+    <string name="walkthrough_perm_access_requires">Android requires the ZoopSync Accessibility service or Elevated.</string>
 
     <string name="walkthrough_pair_title">Pair with your PC</string>
-    <string name="walkthrough_pair_subtitle">Open NectarLink on your PC. Scan its QR code or pick your PC below.</string>
+    <string name="walkthrough_pair_subtitle">Open ZoopSync on your PC. Scan its QR code or pick your PC below.</string>
     <string name="walkthrough_pair_ready_title">Paired PC</string>
     <string name="walkthrough_pair_badge_paired">Paired</string>
     <string name="walkthrough_pair_device_online">%1$s · Connected</string>
@@ -847,7 +847,7 @@
     <string name="walkthrough_power_elevated_step3">3. Turn on Wireless debugging, tap Pair device with pairing code, and enter the 6-digit code in the notification.</string>
 
     <string name="walkthrough_done_title">Setup complete</string>
-    <string name="walkthrough_done_subtitle">NectarLink is ready. Reopen this walkthrough anytime from Settings › About.</string>
+    <string name="walkthrough_done_subtitle">ZoopSync is ready. Reopen this walkthrough anytime from Settings › About.</string>
     <string name="walkthrough_done_summary_heading">Your setup</string>
     <string name="walkthrough_done_paired_label">Paired PC</string>
     <string name="walkthrough_done_no_pc">None yet · pair anytime on Home</string>
@@ -859,7 +859,7 @@
     <string name="walkthrough_done_no_permissions">None granted yet</string>
     <string name="walkthrough_done_try_heading">Try first</string>
     <string name="walkthrough_done_try_1">1. Copy text and tap the Send clipboard tile to paste on your PC.</string>
-    <string name="walkthrough_done_try_2">2. Share any file or link to NectarLink from Android Share.</string>
+    <string name="walkthrough_done_try_2">2. Share any file or link to ZoopSync from Android Share.</string>
 
     <!-- Features Guide Chrome -->
     <string name="guide_back">Back</string>
@@ -921,12 +921,12 @@
     <string name="guide_notif_summary">See phone notifications on your PC, dismiss them, or reply inline.</string>
     <string name="guide_notif_where">Settings › Permissions › Notifications</string>
     <string name="guide_notif_needs">Notification access, Notifications toggle on for the PC</string>
-    <string name="guide_notif_need_1">Android Notification Access enabled for NectarLink.</string>
+    <string name="guide_notif_need_1">Android Notification Access enabled for ZoopSync.</string>
     <string name="guide_notif_need_2">On Android 13+, Allow restricted settings enabled in App info if sideloaded.</string>
     <string name="guide_notif_need_3">PC paired and online.</string>
     <string name="guide_notif_phone_1">Open Settings › Permissions › Notifications and tap Allow.</string>
-    <string name="guide_notif_phone_2">Turn on NectarLink in Android Notification Access.</string>
-    <string name="guide_notif_pc_1">View phone notifications in the PC notification center or NectarLink window.</string>
+    <string name="guide_notif_phone_2">Turn on ZoopSync in Android Notification Access.</string>
+    <string name="guide_notif_pc_1">View phone notifications in the PC notification center or ZoopSync window.</string>
     <string name="guide_notif_pc_2">Type a reply on the card and press Send, or dismiss to clear on both devices.</string>
     <string name="guide_notif_opt_1">Allow / Manage: Opens Android Notification Access settings.</string>
     <string name="guide_notif_opt_2">Per-PC Notifications toggle: Controls whether a paired PC receives notifications.</string>
@@ -985,7 +985,7 @@
     <string name="guide_clip_needs">Paired PC; Elevated for automatic background phone-to-PC sync</string>
     <string name="guide_clip_need_1">PC-to-phone clipboard sync and the Send clipboard tile work out of the box.</string>
     <string name="guide_clip_need_2">Elevated adds automatic phone-to-PC clipboard sync.</string>
-    <string name="guide_clip_phone_1">Copy text or an image on your phone, then open NectarLink or tap the Send clipboard tile.</string>
+    <string name="guide_clip_phone_1">Copy text or an image on your phone, then open ZoopSync or tap the Send clipboard tile.</string>
     <string name="guide_clip_phone_2">Tap Clipboard history on Home to view, pin, copy, or delete recent clips.</string>
     <string name="guide_clip_pc_1">Copy text or an image on your PC to send it to your phone clipboard.</string>
     <string name="guide_clip_opt_1">Show / Hide: Masks or reveals the latest clip preview on Home.</string>
@@ -1017,7 +1017,7 @@
     <string name="guide_files_need_1">Paired PC (offline files wait in Send queue for up to 7 days).</string>
     <string name="guide_files_phone_1">On Home, tap Send files or Send a folder on your paired PC card.</string>
     <string name="guide_files_phone_2">Pause, resume, or cancel active transfers in the Transfers card on Home.</string>
-    <string name="guide_files_pc_1">Drag files onto the NectarLink window or top-edge island on your PC.</string>
+    <string name="guide_files_pc_1">Drag files onto the ZoopSync window or top-edge island on your PC.</string>
     <string name="guide_files_opt_1">Send files / Send a folder: Transfers individual files or full folder trees.</string>
     <string name="guide_files_opt_2">Pause / Resume: Resumes interrupted transfers without re-sending completed bytes.</string>
     <string name="guide_files_privacy">Files stream over QUIC TLS 1.3 with BLAKE3 integrity verification into Download/Nectarlink.</string>
@@ -1042,7 +1042,7 @@
     <string name="guide_share_where">Android Share sheet › Send to PC</string>
     <string name="guide_share_needs">Paired PC</string>
     <string name="guide_share_ext_1">1. Tap Share in any browser, gallery, or document app on your phone.</string>
-    <string name="guide_share_ext_2">2. Select NectarLink (Send to PC or Open on PC).</string>
+    <string name="guide_share_ext_2">2. Select ZoopSync (Send to PC or Open on PC).</string>
     <string name="guide_share_need_1">At least one paired PC.</string>
     <string name="guide_share_phone_1">Share any link or file from Android Share and pick your target PC.</string>
     <string name="guide_share_pc_1">Links open in your default PC browser; files save to Downloads.</string>
@@ -1059,7 +1059,7 @@
     <string name="guide_storage_need_2">Browse this phone\'s storage in File Explorer enabled for the PC in Settings › Devices.</string>
     <string name="guide_storage_phone_1">Grant All files access or pick folders in Settings › Permissions › Photos and videos.</string>
     <string name="guide_storage_phone_2">Turn on the storage switch for your PC in Settings › Devices.</string>
-    <string name="guide_storage_pc_1">Open your phone storage from NectarLink or Windows File Explorer on your PC.</string>
+    <string name="guide_storage_pc_1">Open your phone storage from ZoopSync or Windows File Explorer on your PC.</string>
     <string name="guide_storage_opt_1">All files access / Selected folders only: Share full storage or only picked SAF folders.</string>
     <string name="guide_storage_privacy">Storage browsing is off by default for every PC until you turn it on.</string>
     <string name="guide_storage_limits">Android blocks access to private app directories in /Android/data.</string>
@@ -1071,7 +1071,7 @@
     <string name="guide_pc_files_needs">Online paired PC with storage sharing enabled</string>
     <string name="guide_pc_files_need_1">Online paired PC that shares its folders (Your PC in your pocket).</string>
     <string name="guide_pc_files_phone_1">On Home, tap Browse PC files on your paired PC card and tap any file to download.</string>
-    <string name="guide_pc_files_pc_1">Turn on Your PC in your pocket in NectarLink’s Settings on your PC.</string>
+    <string name="guide_pc_files_pc_1">Turn on Your PC in your pocket in ZoopSync’s Settings on your PC.</string>
     <string name="guide_pc_files_opt_1">Browse PC files sheet: Navigate PC folders and download files into Downloads.</string>
     <string name="guide_pc_files_privacy">Downloaded files save locally in your phone Downloads folder.</string>
     <string name="guide_pc_files_limits">Requires the paired PC to be online.</string>
@@ -1146,7 +1146,7 @@
     <string name="guide_webcam_needs">Camera permission, online paired PC</string>
     <string name="guide_webcam_need_1">Camera permission on Android and an online paired PC.</string>
     <string name="guide_webcam_phone_1">On Home, tap Webcam on your paired PC card, choose resolution and lens, and tap Start webcam.</string>
-    <string name="guide_webcam_pc_1">View or record the live camera stream in NectarLink on your PC.</string>
+    <string name="guide_webcam_pc_1">View or record the live camera stream in ZoopSync on your PC.</string>
     <string name="guide_webcam_opt_1">Flip camera / Torch / Zoom / Resolution (720p, 1080p, 4K): Live camera controls.</string>
     <string name="guide_webcam_privacy">Never starts silently; shows an ongoing notification while streaming.</string>
     <string name="guide_webcam_limits">1080p 60 fps and 4K require hardware encoder support and fast Wi-Fi or USB.</string>
@@ -1158,7 +1158,7 @@
     <string name="guide_continuity_needs">Camera permission, online paired PC</string>
     <string name="guide_continuity_need_1">Camera permission on Android and an online paired PC.</string>
     <string name="guide_continuity_phone_1">Tap the request notification or banner, take a photo or adjust document corners, and tap Send.</string>
-    <string name="guide_continuity_pc_1">Trigger Take photo or Scan document from NectarLink on your PC.</string>
+    <string name="guide_continuity_pc_1">Trigger Take photo or Scan document from ZoopSync on your PC.</string>
     <string name="guide_continuity_opt_1">Adjust corners / Enhance document: Perspective crop and contrast enhancement for scans.</string>
     <string name="guide_continuity_privacy">Captures are sent only when you tap Use photo or Send scan.</string>
     <string name="guide_continuity_limits">Camera requests expire after 2 minutes if not answered.</string>
@@ -1194,7 +1194,7 @@
     <string name="guide_assist_summary">Let your PC mouse and keyboard tap, swipe, and type on this phone using the Accessibility service.</string>
     <string name="guide_assist_where">Settings › Permissions › Control from your PC › Use your PC\'s mouse and keyboard</string>
     <string name="guide_assist_needs">Accessibility service enabled</string>
-    <string name="guide_assist_need_1">NectarLink Accessibility service enabled in Android Settings.</string>
+    <string name="guide_assist_need_1">ZoopSync Accessibility service enabled in Android Settings.</string>
     <string name="guide_assist_phone_1">Open Settings › Permissions › Control from your PC and tap Allow under Use your PC\'s mouse and keyboard.</string>
     <string name="guide_assist_pc_1">Click, drag, scroll, and type inside the phone mirror window on your PC.</string>
     <string name="guide_assist_opt_1">Stop typing: Ends remote PC keyboard typing from the Home banner.</string>
@@ -1221,7 +1221,7 @@
     <string name="guide_deck_needs">Online paired PC</string>
     <string name="guide_deck_need_1">Online paired PC.</string>
     <string name="guide_deck_phone_1">On Home, tap Deck on your paired PC card and tap any tile to trigger its action.</string>
-    <string name="guide_deck_pc_1">Customize Deck pages and tiles in NectarLink on your PC.</string>
+    <string name="guide_deck_pc_1">Customize Deck pages and tiles in ZoopSync on your PC.</string>
     <string name="guide_deck_opt_1">Full screen: Expands the Deck grid across your phone screen.</string>
     <string name="guide_deck_privacy">Deck layouts and system stats stay between your phone and paired PC.</string>
     <string name="guide_deck_limits">Shell command tiles require Run Deck commands enabled for this phone on your PC.</string>
@@ -1243,7 +1243,7 @@
     <string name="guide_wake_summary">Wake a sleeping paired PC over your local network using Wake-on-LAN.</string>
     <string name="guide_wake_where">Home › Paired PC card › Wake</string>
     <string name="guide_wake_needs">Paired PC with Wake-on-LAN enabled in BIOS and network adapter</string>
-    <string name="guide_wake_need_1">Paired PC connected over LAN at least once so NectarLink learns its MAC address.</string>
+    <string name="guide_wake_need_1">Paired PC connected over LAN at least once so ZoopSync learns its MAC address.</string>
     <string name="guide_wake_need_2">Wake-on-LAN enabled in Windows network adapter settings and BIOS/UEFI.</string>
     <string name="guide_wake_phone_1">When your paired PC is offline on Home, tap Wake on its card.</string>
     <string name="guide_wake_pc_1">Enable Wake-on-LAN packet wake in Device Manager › Network adapters › Power Management.</string>
@@ -1260,7 +1260,7 @@
     <string name="guide_quick_need_2">Do Not Disturb and silent mode require Do Not Disturb access.</string>
     <string name="guide_quick_need_3">Phone brightness control requires Screen brightness permission or Elevated.</string>
     <string name="guide_quick_phone_1">Use Ring PC, Lock PC, and Sleep on your paired PC card on Home or add the PC quick actions widget.</string>
-    <string name="guide_quick_pc_1">Toggle phone DND, ringer, flashlight, volume, and brightness from NectarLink on your PC.</string>
+    <string name="guide_quick_pc_1">Toggle phone DND, ringer, flashlight, volume, and brightness from ZoopSync on your PC.</string>
     <string name="guide_quick_opt_1">Do Not Disturb / Screen brightness: Grant in Settings › Permissions › Control from your PC.</string>
     <string name="guide_quick_privacy">Commands are authenticated per device over TLS 1.3.</string>
     <string name="guide_quick_limits">Locking and sleeping the PC can be toggled per phone in PC Settings › Devices.</string>
@@ -1288,7 +1288,7 @@
     <string name="guide_doctor_phone_1">Open Settings › Permissions › Background &amp; battery and allow unrestricted battery usage.</string>
     <string name="guide_doctor_phone_2">Follow the OEM battery guide if your phone vendor restricts background apps.</string>
     <string name="guide_doctor_pc_1">Open Connection Doctor on your PC to inspect transport latency, ports, and link health.</string>
-    <string name="guide_doctor_opt_1">Wake when PC is nearby: Associates your PC so Android wakes NectarLink when in BLE range.</string>
+    <string name="guide_doctor_opt_1">Wake when PC is nearby: Associates your PC so Android wakes ZoopSync when in BLE range.</string>
     <string name="guide_doctor_privacy">Diagnostics run locally between your phone and paired PC.</string>
     <string name="guide_doctor_limits">Some phone makers\' battery savers must be set to Unrestricted.</string>
     <string name="pair_link_title">Pair with %1$s?</string>
@@ -1298,18 +1298,18 @@
     <string name="pair_link_unknown_pc">this device</string>
     <string name="data_clear_failed">Some history couldn\'t be cleared. Try again.</string>
     <string name="channel_updates">Updates</string>
-    <string name="update_ready_title">NectarLink %1$s is ready</string>
+    <string name="update_ready_title">ZoopSync %1$s is ready</string>
     <string name="update_ready_text">Tap to install the update.</string>
-    <string name="update_done_title">NectarLink is updated to %1$s</string>
+    <string name="update_done_title">ZoopSync is updated to %1$s</string>
     <string name="update_done_text">Tap to open it. Your PCs reconnect on their own.</string>
     <string name="update_auto_title">Install updates automatically</string>
     <string name="update_auto_text">New versions from GitHub install in the background.</string>
 
     <string name="home_guide_title">Guide</string>
     <string name="home_whats_new_guide">What is new: Features guide</string>
-    <string name="home_guide_card_body">Explore every NectarLink feature, check live permissions, or tap Show me to jump straight to any control.</string>
+    <string name="home_guide_card_body">Explore every ZoopSync feature, check live permissions, or tap Show me to jump straight to any control.</string>
     <string name="home_no_pc_paired">No PC paired yet</string>
-    <string name="home_no_pc_body">Open NectarLink on your Windows or Linux PC to pair by QR code or local discovery, or reopen the setup walkthrough.</string>
+    <string name="home_no_pc_body">Open ZoopSync on your Windows or Linux PC to pair by QR code or local discovery, or reopen the setup walkthrough.</string>
     <string name="home_background_clipboard_title">Background clipboard &amp; full control</string>
     <string name="home_background_clipboard_body">Sync clipboard in the background and enable touch control via Wireless Debugging.</string>
     <string name="home_section_screen">Screen, Camera &amp; Input</string>
@@ -1342,25 +1342,25 @@
 
     <!-- Pause for banking apps -->
     <string name="banking_title">Pause for banking apps</string>
-    <string name="banking_text">Some banking apps won\'t open while Developer options, debugging or an accessibility service is on. Choose them here: NectarLink turns those off while they\'re open and back on when you leave.</string>
+    <string name="banking_text">Some banking apps won\'t open while Developer options, debugging or an accessibility service is on. Choose them here: ZoopSync turns those off while they\'re open and back on when you leave.</string>
     <plurals name="banking_chosen">
         <item quantity="one">%1$d app chosen</item>
         <item quantity="other">%1$d apps chosen</item>
     </plurals>
-    <string name="banking_needs_elevated">Needs Elevated set up once, so NectarLink can change these settings.</string>
-    <string name="banking_needs_usage">Allow usage access, so NectarLink can see when a banking app is open.</string>
+    <string name="banking_needs_elevated">Needs Elevated set up once, so ZoopSync can change these settings.</string>
+    <string name="banking_needs_usage">Allow usage access, so ZoopSync can see when a banking app is open.</string>
     <string name="banking_paused_now">Paused now for a banking app.</string>
     <string name="banking_choose">Choose apps</string>
     <string name="banking_pick_title">Banking apps</string>
     <string name="banking_search">Search apps</string>
     <string name="banking_shortcut">Add shortcut</string>
-    <string name="banking_shortcut_hint">If an app still refuses to open, open it from its shortcut: NectarLink pauses first, then opens it.</string>
+    <string name="banking_shortcut_hint">If an app still refuses to open, open it from its shortcut: ZoopSync pauses first, then opens it.</string>
     <string name="banking_channel">Pause for banking apps</string>
     <string name="banking_paused_title">Paused for a banking app</string>
-    <string name="banking_paused_text">Developer options, debugging and NectarLink\'s accessibility service are off until you leave it.</string>
+    <string name="banking_paused_text">Developer options, debugging and ZoopSync\'s accessibility service are off until you leave it.</string>
     <string name="banking_turn_back_on">Turn back on</string>
     <string name="action_done">Done</string>
-    <!-- The phone's name as PCs see it when NectarLink runs in another Android profile: "Pixel 9a (Work)". -->
+    <!-- The phone's name as PCs see it when ZoopSync runs in another Android profile: "Pixel 9a (Work)". -->
     <string name="device_name_in_profile">%1$s (%2$s)</string>
     <string name="profile_work">Work</string>
     <string name="profile_other">Second profile</string>
